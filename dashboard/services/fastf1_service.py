@@ -54,7 +54,21 @@ def load_session(
         )
 
 
-        session.load()
+        session.load(
+
+            laps=True,
+
+            telemetry=True,
+
+            weather=True,
+
+            messages=True,
+
+            car_data=True,
+
+            position_data=True
+
+        )
 
 
         return session
@@ -65,11 +79,14 @@ def load_session(
 
 
         st.error(
+
             f"FastF1 session loading failed: {e}"
+
         )
 
 
         return None
+
 
 
 
@@ -442,6 +459,35 @@ def get_weather(session):
 
 
 # --------------------------------
+# Race Control Messages
+# --------------------------------
+
+def get_race_control_messages(session):
+
+
+    try:
+
+
+        if session is None:
+
+            return None
+
+
+
+        return session.race_control_messages
+
+
+
+    except Exception:
+
+
+        return None
+
+
+
+
+
+# --------------------------------
 # Session Information
 # --------------------------------
 
@@ -478,6 +524,7 @@ def get_session_info(session):
             "Year":
 
             session.event.year
+
 
         }
 
