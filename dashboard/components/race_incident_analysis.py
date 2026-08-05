@@ -13,8 +13,13 @@ from services.fastf1_service import load_session
 
 def get_race_incidents(session):
 
+    try:
 
-    messages = session.race_control_messages
+        messages = session.race_control_messages
+
+    except Exception:
+
+        return []
 
 
     if messages is None or messages.empty:
@@ -22,13 +27,10 @@ def get_race_incidents(session):
         return []
 
 
-
     incidents = []
 
 
-
     for _, row in messages.iterrows():
-
 
         message = str(
 
@@ -43,8 +45,7 @@ def get_race_incidents(session):
         )
 
 
-
-        category = "Other"
+        category = None
 
 
 
@@ -72,19 +73,9 @@ def get_race_incidents(session):
 
 
 
-        else:
+        if category is None:
 
             continue
-
-
-
-        lap = row.get(
-
-            "Lap",
-
-            0
-
-        )
 
 
 
@@ -92,7 +83,13 @@ def get_race_incidents(session):
 
             {
 
-                "lap": lap,
+                "lap": row.get(
+
+                    "Lap",
+
+                    0
+
+                ),
 
                 "type": category,
 
@@ -101,7 +98,6 @@ def get_race_incidents(session):
             }
 
         )
-
 
 
     return incidents
@@ -131,15 +127,30 @@ def render_race_incident_analysis(
 
 
 
-    session = load_session(
+    try:
 
-        year,
 
-        event,
+        session = load_session(
 
-        "R"
+            year,
 
-    )
+            event,
+
+            "R"
+
+        )
+
+
+    except Exception as e:
+
+
+        st.warning(
+
+            f"FastF1 session loading issue: {e}"
+
+        )
+
+        return
 
 
 
@@ -169,7 +180,7 @@ def render_race_incident_analysis(
 
         st.success(
 
-            "No major race incidents detected."
+            "No major race incidents detected for this race."
 
         )
 
@@ -206,15 +217,22 @@ Selected Race:
     )
 
 
-    df.columns = [
 
-        "Lap",
+    df.rename(
 
-        "Event",
+        columns={
 
-        "Message"
+            "lap":"Lap",
 
-    ]
+            "type":"Event",
+
+            "message":"Message"
+
+        },
+
+        inplace=True
+
+    )
 
 
 
@@ -248,20 +266,27 @@ Selected Race:
 
         if item["type"] == "Red Flag":
 
+
             impact_values.append(4)
+
 
 
         elif item["type"] == "Safety Car":
 
+
             impact_values.append(3)
+
 
 
         elif item["type"] == "Virtual Safety Car":
 
+
             impact_values.append(2)
 
 
+
         else:
+
 
             impact_values.append(1)
 
@@ -283,12 +308,9 @@ Selected Race:
 
             ],
 
-
             y=impact_values,
 
-
             mode="lines+markers",
-
 
             name="Incident Impact"
 
@@ -376,9 +398,10 @@ Selected Race:
 
             "Red flag detected. "
 
-            "Teams require aggressive restart strategy."
+            "Aggressive restart strategy required."
 
         )
+
 
 
     elif safety_car_count > 0:
@@ -393,6 +416,7 @@ Selected Race:
         )
 
 
+
     elif vsc_count > 0:
 
 
@@ -403,6 +427,7 @@ Selected Race:
             "Monitor reduced pace opportunities."
 
         )
+
 
 
     else:
@@ -428,14 +453,17 @@ AI Race Engineer Incident Analysis
 {recommendation}
 
 
+
 Safety Car Events:
 
 {safety_car_count}
 
 
+
 Virtual Safety Car Events:
 
 {vsc_count}
+
 
 
 Red Flag Events:
