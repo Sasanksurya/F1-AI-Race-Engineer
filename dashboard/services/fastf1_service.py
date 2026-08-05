@@ -5,9 +5,9 @@ import os
 
 
 
-# --------------------------------
-# FastF1 Cache Setup
-# --------------------------------
+# =====================================
+# FastF1 Cache Configuration
+# =====================================
 
 BASE_DIR = os.path.dirname(
     os.path.dirname(
@@ -34,9 +34,9 @@ fastf1.Cache.enable_cache(
 
 
 
-# --------------------------------
-# Load F1 Session
-# --------------------------------
+# =====================================
+# Load FastF1 Session
+# =====================================
 
 @st.cache_resource(show_spinner=False)
 def load_session(
@@ -54,21 +54,8 @@ def load_session(
         )
 
 
-        session.load(
-
-            laps=True,
-
-            telemetry=True,
-
-            weather=True,
-
-            messages=True,
-
-            car_data=True,
-
-            position_data=True
-
-        )
+        # Correct FastF1 loading
+        session.load()
 
 
         return session
@@ -79,9 +66,7 @@ def load_session(
 
 
         st.error(
-
             f"FastF1 session loading failed: {e}"
-
         )
 
 
@@ -91,28 +76,22 @@ def load_session(
 
 
 
-# --------------------------------
+# =====================================
 # Race Results
-# --------------------------------
+# =====================================
 
 def get_race_results(session):
 
-
     try:
 
-
         if session is None:
-
             return None
-
 
 
         results = session.results
 
 
-
-        if results.empty:
-
+        if results is None or results.empty:
             return None
 
 
@@ -131,7 +110,7 @@ def get_race_results(session):
 
 
 
-        available = [
+        available_columns = [
 
             col
 
@@ -143,7 +122,7 @@ def get_race_results(session):
 
 
 
-        data = results[available].copy()
+        data = results[available_columns].copy()
 
 
 
@@ -172,7 +151,13 @@ def get_race_results(session):
 
             data["Position"] = (
 
-                data["Position"]
+                pd.to_numeric(
+
+                    data["Position"],
+
+                    errors="coerce"
+
+                )
 
                 .fillna(99)
 
@@ -190,6 +175,7 @@ def get_race_results(session):
             )
 
 
+
         return data.reset_index(drop=True)
 
 
@@ -198,9 +184,7 @@ def get_race_results(session):
 
 
         st.warning(
-
             f"Race result error: {e}"
-
         )
 
 
@@ -210,9 +194,9 @@ def get_race_results(session):
 
 
 
-# --------------------------------
+# =====================================
 # Driver Laps
-# --------------------------------
+# =====================================
 
 def get_driver_laps(
 
@@ -222,12 +206,9 @@ def get_driver_laps(
 
 ):
 
-
     try:
 
-
         if session is None:
-
             return None
 
 
@@ -237,10 +218,14 @@ def get_driver_laps(
 
 
         driver_laps = laps.pick_drivers(
-
             driver
-
         )
+
+
+
+        if driver_laps.empty:
+            return None
+
 
 
         return driver_laps
@@ -251,9 +236,7 @@ def get_driver_laps(
 
 
         st.warning(
-
             f"Lap extraction failed: {e}"
-
         )
 
 
@@ -263,9 +246,9 @@ def get_driver_laps(
 
 
 
-# --------------------------------
+# =====================================
 # Driver Telemetry
-# --------------------------------
+# =====================================
 
 def get_driver_telemetry(
 
@@ -275,21 +258,12 @@ def get_driver_telemetry(
 
 ):
 
-
     try:
 
 
-        if session is None:
+        driver_laps = get_driver_laps(
 
-            return None
-
-
-
-        laps = session.laps
-
-
-
-        driver_laps = laps.pick_drivers(
+            session,
 
             driver
 
@@ -297,7 +271,7 @@ def get_driver_telemetry(
 
 
 
-        if driver_laps.empty:
+        if driver_laps is None:
 
             return None
 
@@ -307,11 +281,17 @@ def get_driver_telemetry(
 
 
 
+        if fastest_lap is None:
+
+            return None
+
+
+
         telemetry = fastest_lap.get_telemetry()
 
 
 
-        if telemetry.empty:
+        if telemetry is None or telemetry.empty:
 
             return None
 
@@ -337,9 +317,9 @@ def get_driver_telemetry(
 
 
 
-# --------------------------------
+# =====================================
 # Tyre Strategy
-# --------------------------------
+# =====================================
 
 def get_tyre_strategy(
 
@@ -349,17 +329,12 @@ def get_tyre_strategy(
 
 ):
 
-
     try:
 
 
-        if session is None:
+        laps = get_driver_laps(
 
-            return None
-
-
-
-        laps = session.laps.pick_drivers(
+            session,
 
             driver
 
@@ -367,37 +342,45 @@ def get_tyre_strategy(
 
 
 
-        if laps.empty:
+        if laps is None:
 
             return None
 
 
 
-        stints = laps.groupby(
+        if "Compound" not in laps.columns:
 
-            "Stint"
+            return None
 
-        ).agg(
 
-            {
 
-                "Compound":"first",
+        strategy = (
 
-                "LapNumber":[
+            laps.groupby("Stint")
 
-                    "min",
+            .agg(
 
-                    "max"
+                {
 
-                ]
+                    "Compound":"first",
 
-            }
+                    "LapNumber":[
+
+                        "min",
+
+                        "max"
+
+                    ]
+
+                }
+
+            )
 
         )
 
 
 
-        stints.columns = [
+        strategy.columns = [
 
             "Compound",
 
@@ -409,7 +392,7 @@ def get_tyre_strategy(
 
 
 
-        return stints.reset_index()
+        return strategy.reset_index()
 
 
 
@@ -429,18 +412,15 @@ def get_tyre_strategy(
 
 
 
-# --------------------------------
+# =====================================
 # Weather Data
-# --------------------------------
+# =====================================
 
 def get_weather(session):
 
-
     try:
 
-
         if session is None:
-
             return None
 
 
@@ -458,18 +438,15 @@ def get_weather(session):
 
 
 
-# --------------------------------
+# =====================================
 # Race Control Messages
-# --------------------------------
+# =====================================
 
 def get_race_control_messages(session):
 
-
     try:
 
-
         if session is None:
-
             return None
 
 
@@ -487,44 +464,35 @@ def get_race_control_messages(session):
 
 
 
-# --------------------------------
+# =====================================
 # Session Information
-# --------------------------------
+# =====================================
 
 def get_session_info(session):
 
-
     try:
 
-
         if session is None:
-
             return None
 
 
 
         return {
 
-
             "Event":
-
-            session.event.EventName,
+                session.event.EventName,
 
 
             "Country":
-
-            session.event.Country,
+                session.event.Country,
 
 
             "Location":
-
-            session.event.Location,
+                session.event.Location,
 
 
             "Year":
-
-            session.event.year
-
+                session.event.year
 
         }
 
