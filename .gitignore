@@ -1,11 +1,14 @@
-# FastF1 cache
-dashboard/cache/
-dashboard/fastf1_cache/
-
-# Python
+# Virtual Environment
 venv/
+
+# Python cache
 __pycache__/
 *.pyc
+
+# FastF1 cache
+fastf1_cache/
+dashboard/cache/
+dashboard/fastf1_cache/
 
 # Environment
 .env
