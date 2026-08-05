@@ -1,0 +1,17 @@
+{
+    "model_name": "XGBoost Podium Prediction Model",
+    "target": "podium",
+    "training_period": "2010-2024",
+    "testing_period": "2025 onwards",
+    "features": [
+        "year",
+        "round",
+        "driverId",
+        "constructorId",
+        "circuitId",
+        "grid",
+        "qualifying_position"
+    ],
+    "accuracy": 0.9038737446197992,
+    "roc_auc": 0.9368841654308782
+}

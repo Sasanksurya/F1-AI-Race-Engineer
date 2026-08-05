@@ -1,0 +1,14 @@
+# FastF1 cache
+dashboard/cache/
+dashboard/fastf1_cache/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# VS Code
+.vscode/

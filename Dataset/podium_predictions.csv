@@ -1,0 +1,698 @@
+year,round,driverId,constructorId,circuitId,grid,qualifying_position,raceId,actual_podium,predicted_podium,podium_probability,driver_name,constructor_name,race_name
+2025,1,846,1,1,1.0,1.0,1145,1,1,0.8940598837487123,Lando Norris,McLaren,Australian Grand Prix
+2025,1,830,9,1,3.0,3.0,1145,1,1,0.7847251166397314,Max Verstappen,Red Bull,Australian Grand Prix
+2025,1,847,131,1,4.0,4.0,1145,1,1,0.683847946893774,George Russell,Mercedes,Australian Grand Prix
+2025,1,863,131,1,16.0,16.0,1145,0,0,0.013256683112094348,Andrea Kimi Antonelli,Mercedes,Australian Grand Prix
+2025,1,848,3,1,6.0,6.0,1145,0,1,0.5043738491078684,Alexander Albon,Williams,Australian Grand Prix
+2025,1,840,117,1,13.0,13.0,1145,0,0,0.04670235210006914,Lance Stroll,Aston Martin,Australian Grand Prix
+2025,1,807,15,1,17.0,17.0,1145,0,0,0.009855291506680073,Nico Hülkenberg,Sauber,Australian Grand Prix
+2025,1,844,6,1,7.0,7.0,1145,0,0,0.40026838413219107,Charles Leclerc,Ferrari,Australian Grand Prix
+2025,1,857,1,1,2.0,2.0,1145,0,1,0.8458785612878045,Oscar Piastri,McLaren,Australian Grand Prix
+2025,1,1,6,1,8.0,8.0,1145,0,0,0.44206239138478826,Lewis Hamilton,Ferrari,Australian Grand Prix
+2025,1,842,214,1,9.0,9.0,1145,0,0,0.19829347622938095,Pierre Gasly,Alpine F1 Team,Australian Grand Prix
+2025,1,852,215,1,5.0,5.0,1145,0,1,0.5708427613559479,Yuki Tsunoda,RB F1 Team,Australian Grand Prix
+2025,1,839,210,1,19.0,19.0,1145,0,0,0.0036218735571680208,Esteban Ocon,Haas F1 Team,Australian Grand Prix
+2025,1,860,210,1,20.0,20.0,1145,0,0,0.0023419043496584447,Oliver Bearman,Haas F1 Team,Australian Grand Prix
+2025,1,859,9,1,18.0,18.0,1145,0,0,0.006276165581800477,Liam Lawson,Red Bull,Australian Grand Prix
+2025,1,864,15,1,15.0,15.0,1145,0,0,0.021774805020705744,Gabriel Bortoleto,Sauber,Australian Grand Prix
+2025,1,4,117,1,12.0,12.0,1145,0,0,0.11873225357082283,Fernando Alonso,Aston Martin,Australian Grand Prix
+2025,1,832,3,1,10.0,10.0,1145,0,0,0.15959060232314495,Carlos Sainz,Williams,Australian Grand Prix
+2025,1,862,214,1,14.0,14.0,1145,0,0,0.02864678332013343,Jack Doohan,Alpine F1 Team,Australian Grand Prix
+2025,1,865,215,1,11.0,11.0,1145,0,0,0.09458082053637702,Isack Hadjar,RB F1 Team,Australian Grand Prix
+2025,2,857,1,17,1.0,1.0,1146,1,1,0.8966046868267569,Oscar Piastri,McLaren,Chinese Grand Prix
+2025,2,846,1,17,3.0,3.0,1146,1,1,0.7896443411829366,Lando Norris,McLaren,Chinese Grand Prix
+2025,2,847,131,17,2.0,2.0,1146,1,1,0.839086236097532,George Russell,Mercedes,Chinese Grand Prix
+2025,2,830,9,17,4.0,4.0,1146,0,1,0.7121428182193386,Max Verstappen,Red Bull,Chinese Grand Prix
+2025,2,839,210,17,11.0,11.0,1146,0,0,0.09955936043950711,Esteban Ocon,Haas F1 Team,Chinese Grand Prix
+2025,2,863,131,17,8.0,8.0,1146,0,0,0.29009907023654286,Andrea Kimi Antonelli,Mercedes,Chinese Grand Prix
+2025,2,848,3,17,10.0,10.0,1146,0,0,0.16278587242058962,Alexander Albon,Williams,Chinese Grand Prix
+2025,2,860,210,17,17.0,17.0,1146,0,0,0.008560481350832103,Oliver Bearman,Haas F1 Team,Chinese Grand Prix
+2025,2,840,117,17,14.0,14.0,1146,0,0,0.03217889737222712,Lance Stroll,Aston Martin,Chinese Grand Prix
+2025,2,832,3,17,15.0,15.0,1146,0,0,0.02322721317413003,Carlos Sainz,Williams,Chinese Grand Prix
+2025,2,865,215,17,7.0,7.0,1146,0,0,0.36958757574502415,Isack Hadjar,RB F1 Team,Chinese Grand Prix
+2025,2,859,9,17,20.0,20.0,1146,0,0,0.0028014410817250594,Liam Lawson,Red Bull,Chinese Grand Prix
+2025,2,862,214,17,18.0,18.0,1146,0,0,0.005603252464151394,Jack Doohan,Alpine F1 Team,Chinese Grand Prix
+2025,2,864,15,17,19.0,19.0,1146,0,0,0.004235006684760133,Gabriel Bortoleto,Sauber,Chinese Grand Prix
+2025,2,807,15,17,12.0,12.0,1146,0,0,0.07853838044191468,Nico Hülkenberg,Sauber,Chinese Grand Prix
+2025,2,852,215,17,9.0,9.0,1146,0,0,0.20264414452137636,Yuki Tsunoda,RB F1 Team,Chinese Grand Prix
+2025,2,4,117,17,13.0,13.0,1146,0,0,0.08377754074670664,Fernando Alonso,Aston Martin,Chinese Grand Prix
+2025,2,844,6,17,6.0,6.0,1146,0,1,0.5132652636813925,Charles Leclerc,Ferrari,Chinese Grand Prix
+2025,2,1,6,17,5.0,5.0,1146,0,1,0.7445300769452677,Lewis Hamilton,Ferrari,Chinese Grand Prix
+2025,2,842,214,17,16.0,16.0,1146,0,0,0.013129582929144347,Pierre Gasly,Alpine F1 Team,Chinese Grand Prix
+2025,3,830,9,22,1.0,1.0,1147,1,1,0.8989596575650227,Max Verstappen,Red Bull,Japanese Grand Prix
+2025,3,846,1,22,2.0,2.0,1147,1,1,0.8529167257949414,Lando Norris,McLaren,Japanese Grand Prix
+2025,3,857,1,22,3.0,3.0,1147,1,1,0.7904101043213484,Oscar Piastri,McLaren,Japanese Grand Prix
+2025,3,844,6,22,4.0,4.0,1147,0,1,0.7130954458966928,Charles Leclerc,Ferrari,Japanese Grand Prix
+2025,3,847,131,22,5.0,5.0,1147,0,1,0.5977927336624661,George Russell,Mercedes,Japanese Grand Prix
+2025,3,863,131,22,6.0,6.0,1147,0,0,0.4906234075207409,Andrea Kimi Antonelli,Mercedes,Japanese Grand Prix
+2025,3,1,6,22,8.0,8.0,1147,0,0,0.4537526236672603,Lewis Hamilton,Ferrari,Japanese Grand Prix
+2025,3,865,215,22,7.0,7.0,1147,0,0,0.3724738389054022,Isack Hadjar,RB F1 Team,Japanese Grand Prix
+2025,3,848,3,22,9.0,9.0,1147,0,0,0.23098385894367568,Alexander Albon,Williams,Japanese Grand Prix
+2025,3,860,210,22,10.0,10.0,1147,0,0,0.1440503279278713,Oliver Bearman,Haas F1 Team,Japanese Grand Prix
+2025,3,4,117,22,12.0,13.0,1147,0,0,0.09146611718001331,Fernando Alonso,Aston Martin,Japanese Grand Prix
+2025,3,852,9,22,14.0,15.0,1147,0,0,0.025060271221410056,Yuki Tsunoda,Red Bull,Japanese Grand Prix
+2025,3,842,214,22,11.0,11.0,1147,0,0,0.10022362329513547,Pierre Gasly,Alpine F1 Team,Japanese Grand Prix
+2025,3,832,3,22,15.0,12.0,1147,0,0,0.062349988518662885,Carlos Sainz,Williams,Japanese Grand Prix
+2025,3,862,214,22,19.0,19.0,1147,0,0,0.003725086443269756,Jack Doohan,Alpine F1 Team,Japanese Grand Prix
+2025,3,807,15,22,16.0,16.0,1147,0,0,0.015672452811374676,Nico Hülkenberg,Sauber,Japanese Grand Prix
+2025,3,859,215,22,13.0,14.0,1147,0,0,0.0325743822108923,Liam Lawson,RB F1 Team,Japanese Grand Prix
+2025,3,839,210,22,18.0,18.0,1147,0,0,0.005781194766701834,Esteban Ocon,Haas F1 Team,Japanese Grand Prix
+2025,3,864,15,22,17.0,17.0,1147,0,0,0.009924898488457914,Gabriel Bortoleto,Sauber,Japanese Grand Prix
+2025,3,840,117,22,20.0,20.0,1147,0,0,0.0026608612294564873,Lance Stroll,Aston Martin,Japanese Grand Prix
+2025,4,857,1,3,1.0,1.0,1148,1,1,0.8943166254977434,Oscar Piastri,McLaren,Bahrain Grand Prix
+2025,4,847,131,3,3.0,2.0,1148,1,1,0.8239205905605353,George Russell,Mercedes,Bahrain Grand Prix
+2025,4,846,1,3,6.0,6.0,1148,1,1,0.507700263086854,Lando Norris,McLaren,Bahrain Grand Prix
+2025,4,844,6,3,2.0,3.0,1148,0,1,0.7989957162447114,Charles Leclerc,Ferrari,Bahrain Grand Prix
+2025,4,1,6,3,9.0,9.0,1148,0,0,0.3441525990101195,Lewis Hamilton,Ferrari,Bahrain Grand Prix
+2025,4,830,9,3,7.0,7.0,1148,0,0,0.40464073624247227,Max Verstappen,Red Bull,Bahrain Grand Prix
+2025,4,842,214,3,4.0,5.0,1148,0,1,0.5956522759141346,Pierre Gasly,Alpine F1 Team,Bahrain Grand Prix
+2025,4,839,210,3,14.0,14.0,1148,0,0,0.029480294977644445,Esteban Ocon,Haas F1 Team,Bahrain Grand Prix
+2025,4,852,9,3,10.0,10.0,1148,0,0,0.1585301810857268,Yuki Tsunoda,Red Bull,Bahrain Grand Prix
+2025,4,860,210,3,20.0,20.0,1148,0,0,0.0023664833208796015,Oliver Bearman,Haas F1 Team,Bahrain Grand Prix
+2025,4,863,131,3,5.0,4.0,1148,0,1,0.6652635228646506,Andrea Kimi Antonelli,Mercedes,Bahrain Grand Prix
+2025,4,848,3,3,15.0,15.0,1148,0,0,0.022430497951131254,Alexander Albon,Williams,Bahrain Grand Prix
+2025,4,865,215,3,12.0,12.0,1148,0,0,0.06470701756902726,Isack Hadjar,RB F1 Team,Bahrain Grand Prix
+2025,4,862,214,3,11.0,11.0,1148,0,0,0.09572556763589594,Jack Doohan,Alpine F1 Team,Bahrain Grand Prix
+2025,4,4,117,3,13.0,13.0,1148,0,0,0.08192030097078404,Fernando Alonso,Aston Martin,Bahrain Grand Prix
+2025,4,859,215,3,17.0,17.0,1148,0,0,0.008331689109178708,Liam Lawson,RB F1 Team,Bahrain Grand Prix
+2025,4,840,117,3,19.0,19.0,1148,0,0,0.003908287519056326,Lance Stroll,Aston Martin,Bahrain Grand Prix
+2025,4,864,15,3,18.0,18.0,1148,0,0,0.006292669099333768,Gabriel Bortoleto,Sauber,Bahrain Grand Prix
+2025,4,832,3,3,8.0,8.0,1148,0,0,0.30878879218242106,Carlos Sainz,Williams,Bahrain Grand Prix
+2025,4,807,15,3,16.0,16.0,1148,0,0,0.015114583340737151,Nico Hülkenberg,Sauber,Bahrain Grand Prix
+2025,5,857,1,77,2.0,2.0,1149,1,1,0.8660943002488095,Oscar Piastri,McLaren,Saudi Arabian Grand Prix
+2025,5,830,9,77,1.0,1.0,1149,1,1,0.909097510940111,Max Verstappen,Red Bull,Saudi Arabian Grand Prix
+2025,5,844,6,77,4.0,4.0,1149,1,1,0.736413921701012,Charles Leclerc,Ferrari,Saudi Arabian Grand Prix
+2025,5,846,1,77,10.0,10.0,1149,0,0,0.18160856309126003,Lando Norris,McLaren,Saudi Arabian Grand Prix
+2025,5,847,131,77,3.0,3.0,1149,0,1,0.795474713516594,George Russell,Mercedes,Saudi Arabian Grand Prix
+2025,5,863,131,77,5.0,5.0,1149,0,1,0.6229170140961641,Andrea Kimi Antonelli,Mercedes,Saudi Arabian Grand Prix
+2025,5,1,6,77,7.0,7.0,1149,0,1,0.5875724523437739,Lewis Hamilton,Ferrari,Saudi Arabian Grand Prix
+2025,5,832,3,77,6.0,6.0,1149,0,1,0.5480993185270024,Carlos Sainz,Williams,Saudi Arabian Grand Prix
+2025,5,848,3,77,11.0,11.0,1149,0,0,0.12665745213234048,Alexander Albon,Williams,Saudi Arabian Grand Prix
+2025,5,865,215,77,14.0,14.0,1149,0,0,0.03349609133646226,Isack Hadjar,RB F1 Team,Saudi Arabian Grand Prix
+2025,5,4,117,77,13.0,13.0,1149,0,0,0.09425281055819194,Fernando Alonso,Aston Martin,Saudi Arabian Grand Prix
+2025,5,859,215,77,12.0,12.0,1149,0,0,0.07495155231108311,Liam Lawson,RB F1 Team,Saudi Arabian Grand Prix
+2025,5,860,210,77,15.0,15.0,1149,0,0,0.02236448585896009,Oliver Bearman,Haas F1 Team,Saudi Arabian Grand Prix
+2025,5,839,210,77,19.0,19.0,1149,0,0,0.004265537768909507,Esteban Ocon,Haas F1 Team,Saudi Arabian Grand Prix
+2025,5,807,15,77,18.0,18.0,1149,0,0,0.007629065065619091,Nico Hülkenberg,Sauber,Saudi Arabian Grand Prix
+2025,5,840,117,77,16.0,16.0,1149,0,0,0.015993565761370458,Lance Stroll,Aston Martin,Saudi Arabian Grand Prix
+2025,5,862,214,77,17.0,17.0,1149,0,0,0.009689628747778593,Jack Doohan,Alpine F1 Team,Saudi Arabian Grand Prix
+2025,5,864,15,77,20.0,20.0,1149,0,0,0.0031621882054134135,Gabriel Bortoleto,Sauber,Saudi Arabian Grand Prix
+2025,5,852,9,77,8.0,8.0,1149,0,0,0.3384020944178496,Yuki Tsunoda,Red Bull,Saudi Arabian Grand Prix
+2025,5,842,214,77,9.0,9.0,1149,0,0,0.22569672554617362,Pierre Gasly,Alpine F1 Team,Saudi Arabian Grand Prix
+2025,6,857,1,79,4.0,4.0,1150,1,1,0.7365385177702745,Oscar Piastri,McLaren,Miami Grand Prix
+2025,6,846,1,79,2.0,2.0,1150,1,1,0.8677064637707139,Lando Norris,McLaren,Miami Grand Prix
+2025,6,847,131,79,5.0,5.0,1150,1,1,0.627017703636402,George Russell,Mercedes,Miami Grand Prix
+2025,6,830,9,79,1.0,1.0,1150,0,1,0.9096102685413651,Max Verstappen,Red Bull,Miami Grand Prix
+2025,6,848,3,79,7.0,7.0,1150,0,0,0.4416242657087686,Alexander Albon,Williams,Miami Grand Prix
+2025,6,863,131,79,3.0,3.0,1150,0,1,0.7946511231553295,Andrea Kimi Antonelli,Mercedes,Miami Grand Prix
+2025,6,844,6,79,8.0,8.0,1150,0,0,0.3415452877537398,Charles Leclerc,Ferrari,Miami Grand Prix
+2025,6,1,6,79,12.0,12.0,1150,0,0,0.14774462815253667,Lewis Hamilton,Ferrari,Miami Grand Prix
+2025,6,832,3,79,6.0,6.0,1150,0,1,0.5496396067475541,Carlos Sainz,Williams,Miami Grand Prix
+2025,6,852,9,79,10.0,10.0,1150,0,0,0.18105341208837422,Yuki Tsunoda,Red Bull,Miami Grand Prix
+2025,6,865,215,79,11.0,11.0,1150,0,0,0.11021962489769432,Isack Hadjar,RB F1 Team,Miami Grand Prix
+2025,6,839,210,79,9.0,9.0,1150,0,0,0.22766014598966994,Esteban Ocon,Haas F1 Team,Miami Grand Prix
+2025,6,842,214,79,20.0,18.0,1150,0,0,0.005503320313733987,Pierre Gasly,Alpine F1 Team,Miami Grand Prix
+2025,6,807,15,79,16.0,16.0,1150,0,0,0.01769035727755157,Nico Hülkenberg,Sauber,Miami Grand Prix
+2025,6,4,117,79,17.0,17.0,1150,0,0,0.018953943298855695,Fernando Alonso,Aston Martin,Miami Grand Prix
+2025,6,840,117,79,18.0,19.0,1150,0,0,0.004982150877848731,Lance Stroll,Aston Martin,Miami Grand Prix
+2025,6,859,215,79,15.0,15.0,1150,0,0,0.022437689975069355,Liam Lawson,RB F1 Team,Miami Grand Prix
+2025,6,864,15,79,13.0,13.0,1150,0,0,0.05789321020284907,Gabriel Bortoleto,Sauber,Miami Grand Prix
+2025,6,860,210,79,19.0,20.0,1150,0,0,0.003017995313422642,Oliver Bearman,Haas F1 Team,Miami Grand Prix
+2025,6,862,214,79,14.0,14.0,1150,0,0,0.033790355961960415,Jack Doohan,Alpine F1 Team,Miami Grand Prix
+2025,7,830,9,21,2.0,2.0,1151,1,1,0.8544136880388069,Max Verstappen,Red Bull,Emilia Romagna Grand Prix
+2025,7,846,1,21,4.0,4.0,1151,1,1,0.714854403295401,Lando Norris,McLaren,Emilia Romagna Grand Prix
+2025,7,857,1,21,1.0,1.0,1151,1,1,0.8983353301753371,Oscar Piastri,McLaren,Emilia Romagna Grand Prix
+2025,7,1,6,21,12.0,12.0,1151,0,0,0.13364265178242538,Lewis Hamilton,Ferrari,Emilia Romagna Grand Prix
+2025,7,848,3,21,7.0,7.0,1151,0,0,0.41306727273499316,Alexander Albon,Williams,Emilia Romagna Grand Prix
+2025,7,844,6,21,11.0,11.0,1151,0,0,0.11499762455604853,Charles Leclerc,Ferrari,Emilia Romagna Grand Prix
+2025,7,847,131,21,3.0,3.0,1151,0,1,0.776908561302384,George Russell,Mercedes,Emilia Romagna Grand Prix
+2025,7,832,3,21,6.0,6.0,1151,0,1,0.5206102093270418,Carlos Sainz,Williams,Emilia Romagna Grand Prix
+2025,7,865,215,21,9.0,9.0,1151,0,0,0.2042073793408502,Isack Hadjar,RB F1 Team,Emilia Romagna Grand Prix
+2025,7,852,9,21,20.0,20.0,1151,0,0,0.0028685529583442853,Yuki Tsunoda,Red Bull,Emilia Romagna Grand Prix
+2025,7,4,117,21,5.0,5.0,1151,0,1,0.7323955406342972,Fernando Alonso,Aston Martin,Emilia Romagna Grand Prix
+2025,7,807,15,21,17.0,17.0,1151,0,0,0.010393507345199556,Nico Hülkenberg,Sauber,Emilia Romagna Grand Prix
+2025,7,842,214,21,10.0,10.0,1151,0,0,0.1460666579743015,Pierre Gasly,Alpine F1 Team,Emilia Romagna Grand Prix
+2025,7,859,215,21,15.0,16.0,1151,0,0,0.014347948844347301,Liam Lawson,RB F1 Team,Emilia Romagna Grand Prix
+2025,7,840,117,21,8.0,8.0,1151,0,0,0.2994631449509463,Lance Stroll,Aston Martin,Emilia Romagna Grand Prix
+2025,7,861,214,21,16.0,15.0,1151,0,0,0.018422240586689027,Franco Colapinto,Alpine F1 Team,Emilia Romagna Grand Prix
+2025,7,860,210,21,19.0,19.0,1151,0,0,0.003765066495403725,Oliver Bearman,Haas F1 Team,Emilia Romagna Grand Prix
+2025,7,864,15,21,14.0,14.0,1151,0,0,0.03459769949223937,Gabriel Bortoleto,Sauber,Emilia Romagna Grand Prix
+2025,7,863,131,21,13.0,13.0,1151,0,0,0.04794102804844368,Andrea Kimi Antonelli,Mercedes,Emilia Romagna Grand Prix
+2025,7,839,210,21,18.0,18.0,1151,0,0,0.005818329519975536,Esteban Ocon,Haas F1 Team,Emilia Romagna Grand Prix
+2025,8,846,1,6,1.0,1.0,1152,1,1,0.8964140479608368,Lando Norris,McLaren,Monaco Grand Prix
+2025,8,844,6,6,2.0,2.0,1152,1,1,0.8498360145393328,Charles Leclerc,Ferrari,Monaco Grand Prix
+2025,8,857,1,6,3.0,3.0,1152,1,1,0.7867129908566487,Oscar Piastri,McLaren,Monaco Grand Prix
+2025,8,830,9,6,4.0,5.0,1152,0,1,0.6358410481256997,Max Verstappen,Red Bull,Monaco Grand Prix
+2025,8,1,6,6,7.0,4.0,1152,0,1,0.7739526437388408,Lewis Hamilton,Ferrari,Monaco Grand Prix
+2025,8,865,215,6,5.0,6.0,1152,0,0,0.4906465458213411,Isack Hadjar,RB F1 Team,Monaco Grand Prix
+2025,8,839,210,6,8.0,8.0,1152,0,0,0.28001235444530076,Esteban Ocon,Haas F1 Team,Monaco Grand Prix
+2025,8,859,215,6,9.0,9.0,1152,0,0,0.20027300261656536,Liam Lawson,RB F1 Team,Monaco Grand Prix
+2025,8,848,3,6,10.0,10.0,1152,0,0,0.1614538006562675,Alexander Albon,Williams,Monaco Grand Prix
+2025,8,832,3,6,11.0,11.0,1152,0,0,0.11317749407019667,Carlos Sainz,Williams,Monaco Grand Prix
+2025,8,847,131,6,14.0,14.0,1152,0,0,0.0314163381153392,George Russell,Mercedes,Monaco Grand Prix
+2025,8,860,210,6,20.0,17.0,1152,0,0,0.006604379376440523,Oliver Bearman,Haas F1 Team,Monaco Grand Prix
+2025,8,861,214,6,18.0,20.0,1152,0,0,0.0028284622380158934,Franco Colapinto,Alpine F1 Team,Monaco Grand Prix
+2025,8,864,15,6,16.0,16.0,1152,0,0,0.014739189188599221,Gabriel Bortoleto,Sauber,Monaco Grand Prix
+2025,8,840,117,6,19.0,19.0,1152,0,0,0.003965684084363728,Lance Stroll,Aston Martin,Monaco Grand Prix
+2025,8,807,15,6,13.0,13.0,1152,0,0,0.05241656886208463,Nico Hülkenberg,Sauber,Monaco Grand Prix
+2025,8,852,9,6,12.0,12.0,1152,0,0,0.07588674038136713,Yuki Tsunoda,Red Bull,Monaco Grand Prix
+2025,8,863,131,6,15.0,15.0,1152,0,0,0.020586989979971382,Andrea Kimi Antonelli,Mercedes,Monaco Grand Prix
+2025,8,4,117,6,6.0,7.0,1152,0,1,0.5540466700322417,Fernando Alonso,Aston Martin,Monaco Grand Prix
+2025,8,842,214,6,17.0,18.0,1152,0,0,0.006116446352064573,Pierre Gasly,Alpine F1 Team,Monaco Grand Prix
+2025,9,857,1,4,1.0,1.0,1153,1,1,0.8955072896989748,Oscar Piastri,McLaren,Spanish Grand Prix
+2025,9,846,1,4,2.0,2.0,1153,1,1,0.8498611766527407,Lando Norris,McLaren,Spanish Grand Prix
+2025,9,844,6,4,7.0,7.0,1153,1,0,0.40583244834435384,Charles Leclerc,Ferrari,Spanish Grand Prix
+2025,9,847,131,4,4.0,4.0,1153,0,1,0.688826397581427,George Russell,Mercedes,Spanish Grand Prix
+2025,9,807,15,4,15.0,16.0,1153,0,0,0.016620768662409306,Nico Hülkenberg,Sauber,Spanish Grand Prix
+2025,9,1,6,4,5.0,5.0,1153,0,1,0.742282560516044,Lewis Hamilton,Ferrari,Spanish Grand Prix
+2025,9,865,215,4,9.0,9.0,1153,0,0,0.19928117277204002,Isack Hadjar,RB F1 Team,Spanish Grand Prix
+2025,9,842,214,4,8.0,8.0,1153,0,0,0.27861212619849834,Pierre Gasly,Alpine F1 Team,Spanish Grand Prix
+2025,9,4,117,4,10.0,10.0,1153,0,0,0.24299291973497866,Fernando Alonso,Aston Martin,Spanish Grand Prix
+2025,9,830,9,4,3.0,3.0,1153,0,1,0.7886061012140573,Max Verstappen,Red Bull,Spanish Grand Prix
+2025,9,859,215,4,13.0,13.0,1153,0,0,0.044082307345585776,Liam Lawson,RB F1 Team,Spanish Grand Prix
+2025,9,864,15,4,12.0,12.0,1153,0,0,0.0748600931268134,Gabriel Bortoleto,Sauber,Spanish Grand Prix
+2025,9,852,9,4,19.0,20.0,1153,0,0,0.003025035798902695,Yuki Tsunoda,Red Bull,Spanish Grand Prix
+2025,9,832,3,4,17.0,18.0,1153,0,0,0.007143484413272321,Carlos Sainz,Williams,Spanish Grand Prix
+2025,9,861,214,4,18.0,19.0,1153,0,0,0.003956165044665164,Franco Colapinto,Alpine F1 Team,Spanish Grand Prix
+2025,9,839,210,4,16.0,17.0,1153,0,0,0.009330221584389375,Esteban Ocon,Haas F1 Team,Spanish Grand Prix
+2025,9,860,210,4,14.0,15.0,1153,0,0,0.021146718818464076,Oliver Bearman,Haas F1 Team,Spanish Grand Prix
+2025,9,863,131,4,6.0,6.0,1153,0,0,0.4845896052882329,Andrea Kimi Antonelli,Mercedes,Spanish Grand Prix
+2025,9,848,3,4,11.0,11.0,1153,0,0,0.11185430035835262,Alexander Albon,Williams,Spanish Grand Prix
+2025,10,847,131,7,1.0,1.0,1154,1,1,0.8879971613733297,George Russell,Mercedes,Canadian Grand Prix
+2025,10,830,9,7,2.0,2.0,1154,1,1,0.8516151591837627,Max Verstappen,Red Bull,Canadian Grand Prix
+2025,10,863,131,7,4.0,4.0,1154,1,1,0.6881818183521559,Andrea Kimi Antonelli,Mercedes,Canadian Grand Prix
+2025,10,857,1,7,3.0,3.0,1154,0,1,0.7877671543645935,Oscar Piastri,McLaren,Canadian Grand Prix
+2025,10,844,6,7,8.0,8.0,1154,0,0,0.3109967856980097,Charles Leclerc,Ferrari,Canadian Grand Prix
+2025,10,1,6,7,5.0,5.0,1154,0,1,0.7438613768607459,Lewis Hamilton,Ferrari,Canadian Grand Prix
+2025,10,4,117,7,6.0,6.0,1154,0,1,0.6369100459614779,Fernando Alonso,Aston Martin,Canadian Grand Prix
+2025,10,807,15,7,11.0,13.0,1154,0,0,0.06176444910999899,Nico Hülkenberg,Sauber,Canadian Grand Prix
+2025,10,839,210,7,14.0,15.0,1154,0,0,0.021629536615321184,Esteban Ocon,Haas F1 Team,Canadian Grand Prix
+2025,10,832,3,7,16.0,17.0,1154,0,0,0.010947853203111802,Carlos Sainz,Williams,Canadian Grand Prix
+2025,10,860,210,7,13.0,14.0,1154,0,0,0.03216710185943128,Oliver Bearman,Haas F1 Team,Canadian Grand Prix
+2025,10,852,9,7,18.0,11.0,1154,0,0,0.06550831948768865,Yuki Tsunoda,Red Bull,Canadian Grand Prix
+2025,10,861,214,7,10.0,12.0,1154,0,0,0.0773578767254791,Franco Colapinto,Alpine F1 Team,Canadian Grand Prix
+2025,10,864,15,7,15.0,16.0,1154,0,0,0.01610736681191911,Gabriel Bortoleto,Sauber,Canadian Grand Prix
+2025,10,842,214,7,20.0,20.0,1154,0,0,0.0024402004919342026,Pierre Gasly,Alpine F1 Team,Canadian Grand Prix
+2025,10,865,215,7,12.0,9.0,1154,0,0,0.16326791271749222,Isack Hadjar,RB F1 Team,Canadian Grand Prix
+2025,10,840,117,7,17.0,18.0,1154,0,0,0.006604125163185205,Lance Stroll,Aston Martin,Canadian Grand Prix
+2025,10,846,1,7,7.0,7.0,1154,0,0,0.4083530083949865,Lando Norris,McLaren,Canadian Grand Prix
+2025,10,859,215,7,19.0,19.0,1154,0,0,0.0036717213709195613,Liam Lawson,RB F1 Team,Canadian Grand Prix
+2025,10,848,3,7,9.0,10.0,1154,0,0,0.17403525837956657,Alexander Albon,Williams,Canadian Grand Prix
+2025,11,846,1,70,1.0,1.0,1155,1,1,0.9085046500042372,Lando Norris,McLaren,Austrian Grand Prix
+2025,11,857,1,70,3.0,3.0,1155,1,1,0.8088779697462244,Oscar Piastri,McLaren,Austrian Grand Prix
+2025,11,844,6,70,2.0,2.0,1155,1,1,0.8665538973464101,Charles Leclerc,Ferrari,Austrian Grand Prix
+2025,11,1,6,70,4.0,4.0,1155,0,1,0.8347765641176657,Lewis Hamilton,Ferrari,Austrian Grand Prix
+2025,11,847,131,70,5.0,5.0,1155,0,1,0.6251845942323226,George Russell,Mercedes,Austrian Grand Prix
+2025,11,859,215,70,6.0,6.0,1155,0,1,0.5051144476143102,Liam Lawson,RB F1 Team,Austrian Grand Prix
+2025,11,4,117,70,11.0,11.0,1155,0,0,0.19476110226838128,Fernando Alonso,Aston Martin,Austrian Grand Prix
+2025,11,864,15,70,8.0,8.0,1155,0,0,0.33519339219264876,Gabriel Bortoleto,Sauber,Austrian Grand Prix
+2025,11,807,15,70,20.0,20.0,1155,0,0,0.003286088594881058,Nico Hülkenberg,Sauber,Austrian Grand Prix
+2025,11,839,210,70,17.0,17.0,1155,0,0,0.009858653739401963,Esteban Ocon,Haas F1 Team,Austrian Grand Prix
+2025,11,860,210,70,15.0,15.0,1155,0,0,0.022329312807668377,Oliver Bearman,Haas F1 Team,Austrian Grand Prix
+2025,11,865,215,70,13.0,13.0,1155,0,0,0.05014672015150171,Isack Hadjar,RB F1 Team,Austrian Grand Prix
+2025,11,842,214,70,10.0,10.0,1155,0,0,0.1601794505117807,Pierre Gasly,Alpine F1 Team,Austrian Grand Prix
+2025,11,840,117,70,16.0,16.0,1155,0,0,0.015968248720378744,Lance Stroll,Aston Martin,Austrian Grand Prix
+2025,11,861,214,70,14.0,14.0,1155,0,0,0.03355847959173482,Franco Colapinto,Alpine F1 Team,Austrian Grand Prix
+2025,11,852,9,70,18.0,18.0,1155,0,0,0.007412450604262242,Yuki Tsunoda,Red Bull,Austrian Grand Prix
+2025,11,848,3,70,12.0,12.0,1155,0,0,0.08667204052961984,Alexander Albon,Williams,Austrian Grand Prix
+2025,11,830,9,70,7.0,7.0,1155,0,0,0.4417611488956,Max Verstappen,Red Bull,Austrian Grand Prix
+2025,11,863,131,70,9.0,9.0,1155,0,0,0.23331074838164836,Andrea Kimi Antonelli,Mercedes,Austrian Grand Prix
+2025,11,832,3,70,19.0,19.0,1155,0,0,0.004960513384981335,Carlos Sainz,Williams,Austrian Grand Prix
+2025,12,846,1,9,3.0,3.0,1156,1,1,0.7904455521955744,Lando Norris,McLaren,British Grand Prix
+2025,12,857,1,9,2.0,2.0,1156,1,1,0.8509883018537397,Oscar Piastri,McLaren,British Grand Prix
+2025,12,807,15,9,19.0,19.0,1156,1,0,0.004429063704891745,Nico Hülkenberg,Sauber,British Grand Prix
+2025,12,1,6,9,5.0,5.0,1156,0,1,0.745447728327802,Lewis Hamilton,Ferrari,British Grand Prix
+2025,12,830,9,9,1.0,1.0,1156,0,1,0.8982729355202093,Max Verstappen,Red Bull,British Grand Prix
+2025,12,842,214,9,8.0,10.0,1156,0,0,0.16630521996383663,Pierre Gasly,Alpine F1 Team,British Grand Prix
+2025,12,840,117,9,17.0,18.0,1156,0,0,0.006659084824473643,Lance Stroll,Aston Martin,British Grand Prix
+2025,12,848,3,9,13.0,14.0,1156,0,0,0.03772418662554778,Alexander Albon,Williams,British Grand Prix
+2025,12,4,117,9,7.0,9.0,1156,0,0,0.37063579637891886,Fernando Alonso,Aston Martin,British Grand Prix
+2025,12,847,131,9,4.0,4.0,1156,0,1,0.6923760063958891,George Russell,Mercedes,British Grand Prix
+2025,12,860,210,9,18.0,8.0,1156,0,0,0.14390977900761978,Oliver Bearman,Haas F1 Team,British Grand Prix
+2025,12,832,3,9,9.0,11.0,1156,0,0,0.13281150845850184,Carlos Sainz,Williams,British Grand Prix
+2025,12,839,210,9,14.0,15.0,1156,0,0,0.021806793162630216,Esteban Ocon,Haas F1 Team,British Grand Prix
+2025,12,844,6,9,6.0,6.0,1156,0,1,0.5144718954260635,Charles Leclerc,Ferrari,British Grand Prix
+2025,12,852,9,9,11.0,12.0,1156,0,0,0.08308936537106813,Yuki Tsunoda,Red Bull,British Grand Prix
+2025,12,863,131,9,10.0,7.0,1156,0,0,0.32758048499177406,Andrea Kimi Antonelli,Mercedes,British Grand Prix
+2025,12,865,215,9,12.0,13.0,1156,0,0,0.04832078554413539,Isack Hadjar,RB F1 Team,British Grand Prix
+2025,12,864,15,9,16.0,17.0,1156,0,0,0.010703648833927966,Gabriel Bortoleto,Sauber,British Grand Prix
+2025,12,859,215,9,15.0,16.0,1156,0,0,0.01415160822322618,Liam Lawson,RB F1 Team,British Grand Prix
+2025,12,861,214,9,20.0,20.0,1156,0,0,0.0024279470824293383,Franco Colapinto,Alpine F1 Team,British Grand Prix
+2025,13,857,1,13,2.0,2.0,1157,1,1,0.852292071421093,Oscar Piastri,McLaren,Belgian Grand Prix
+2025,13,846,1,13,1.0,1.0,1157,1,1,0.8987084987165431,Lando Norris,McLaren,Belgian Grand Prix
+2025,13,844,6,13,3.0,3.0,1157,1,1,0.7917916289567973,Charles Leclerc,Ferrari,Belgian Grand Prix
+2025,13,830,9,13,4.0,4.0,1157,0,1,0.7152383037095523,Max Verstappen,Red Bull,Belgian Grand Prix
+2025,13,847,131,13,6.0,6.0,1157,0,0,0.4941366603374393,George Russell,Mercedes,Belgian Grand Prix
+2025,13,848,3,13,5.0,5.0,1157,0,1,0.6201218391793513,Alexander Albon,Williams,Belgian Grand Prix
+2025,13,1,6,13,18.0,16.0,1157,0,0,0.02341783801610295,Lewis Hamilton,Ferrari,Belgian Grand Prix
+2025,13,859,215,13,9.0,9.0,1157,0,0,0.20429988466940444,Liam Lawson,RB F1 Team,Belgian Grand Prix
+2025,13,864,15,13,10.0,10.0,1157,0,0,0.1621430560182117,Gabriel Bortoleto,Sauber,Belgian Grand Prix
+2025,13,842,214,13,13.0,13.0,1157,0,0,0.045782687145479097,Pierre Gasly,Alpine F1 Team,Belgian Grand Prix
+2025,13,860,210,13,12.0,12.0,1157,0,0,0.06759130201975537,Oliver Bearman,Haas F1 Team,Belgian Grand Prix
+2025,13,807,15,13,14.0,14.0,1157,0,0,0.03583805971379469,Nico Hülkenberg,Sauber,Belgian Grand Prix
+2025,13,852,9,13,7.0,7.0,1157,0,0,0.4104569660819165,Yuki Tsunoda,Red Bull,Belgian Grand Prix
+2025,13,840,117,13,16.0,20.0,1157,0,0,0.00372777433765077,Lance Stroll,Aston Martin,Belgian Grand Prix
+2025,13,839,210,13,11.0,11.0,1157,0,0,0.10092569730204215,Esteban Ocon,Haas F1 Team,Belgian Grand Prix
+2025,13,863,131,13,19.0,18.0,1157,0,0,0.0055480925031492255,Andrea Kimi Antonelli,Mercedes,Belgian Grand Prix
+2025,13,4,117,13,20.0,19.0,1157,0,0,0.006720293669095963,Fernando Alonso,Aston Martin,Belgian Grand Prix
+2025,13,832,3,13,17.0,15.0,1157,0,0,0.020006165590239038,Carlos Sainz,Williams,Belgian Grand Prix
+2025,13,861,214,13,15.0,17.0,1157,0,0,0.010224434841371925,Franco Colapinto,Alpine F1 Team,Belgian Grand Prix
+2025,13,865,215,13,8.0,8.0,1157,0,0,0.2806278220722138,Isack Hadjar,RB F1 Team,Belgian Grand Prix
+2025,14,846,1,11,3.0,3.0,1158,1,1,0.7918241347119818,Lando Norris,McLaren,Hungarian Grand Prix
+2025,14,857,1,11,2.0,2.0,1158,1,1,0.8520431479512736,Oscar Piastri,McLaren,Hungarian Grand Prix
+2025,14,847,131,11,4.0,4.0,1158,1,1,0.6941501172606953,George Russell,Mercedes,Hungarian Grand Prix
+2025,14,844,6,11,1.0,1.0,1158,0,1,0.8983301796014372,Charles Leclerc,Ferrari,Hungarian Grand Prix
+2025,14,4,117,11,5.0,5.0,1158,0,1,0.7312896805090281,Fernando Alonso,Aston Martin,Hungarian Grand Prix
+2025,14,864,15,11,7.0,7.0,1158,0,0,0.40689700142155283,Gabriel Bortoleto,Sauber,Hungarian Grand Prix
+2025,14,840,117,11,6.0,6.0,1158,0,0,0.49738342185325274,Lance Stroll,Aston Martin,Hungarian Grand Prix
+2025,14,859,215,11,9.0,9.0,1158,0,0,0.203978862491562,Liam Lawson,RB F1 Team,Hungarian Grand Prix
+2025,14,830,9,11,8.0,8.0,1158,0,0,0.31624958420432625,Max Verstappen,Red Bull,Hungarian Grand Prix
+2025,14,863,131,11,15.0,15.0,1158,0,0,0.02105547199276929,Andrea Kimi Antonelli,Mercedes,Hungarian Grand Prix
+2025,14,865,215,11,10.0,10.0,1158,0,0,0.1432751773033509,Isack Hadjar,RB F1 Team,Hungarian Grand Prix
+2025,14,1,6,11,12.0,12.0,1158,0,0,0.13299156546463944,Lewis Hamilton,Ferrari,Hungarian Grand Prix
+2025,14,807,15,11,18.0,19.0,1158,0,0,0.004854791178550381,Nico Hülkenberg,Sauber,Hungarian Grand Prix
+2025,14,832,3,11,13.0,13.0,1158,0,0,0.05311430319343218,Carlos Sainz,Williams,Hungarian Grand Prix
+2025,14,848,3,11,19.0,20.0,1158,0,0,0.003123323591635587,Alexander Albon,Williams,Hungarian Grand Prix
+2025,14,839,210,11,17.0,18.0,1158,0,0,0.006288783005714361,Esteban Ocon,Haas F1 Team,Hungarian Grand Prix
+2025,14,852,9,11,20.0,16.0,1158,0,0,0.010964014507658779,Yuki Tsunoda,Red Bull,Hungarian Grand Prix
+2025,14,861,214,11,14.0,14.0,1158,0,0,0.030035985945903176,Franco Colapinto,Alpine F1 Team,Hungarian Grand Prix
+2025,14,842,214,11,16.0,17.0,1158,0,0,0.009516679021907856,Pierre Gasly,Alpine F1 Team,Hungarian Grand Prix
+2025,14,860,210,11,11.0,11.0,1158,0,0,0.09941372764403851,Oliver Bearman,Haas F1 Team,Hungarian Grand Prix
+2025,15,857,1,39,1.0,1.0,1159,1,1,0.9031501071044329,Oscar Piastri,McLaren,Dutch Grand Prix
+2025,15,830,9,39,3.0,3.0,1159,1,1,0.8023420786965285,Max Verstappen,Red Bull,Dutch Grand Prix
+2025,15,865,215,39,4.0,4.0,1159,1,1,0.6913036053996561,Isack Hadjar,RB F1 Team,Dutch Grand Prix
+2025,15,847,131,39,5.0,5.0,1159,0,1,0.6122024603272763,George Russell,Mercedes,Dutch Grand Prix
+2025,15,848,3,39,15.0,15.0,1159,0,0,0.024661683358237943,Alexander Albon,Williams,Dutch Grand Prix
+2025,15,860,210,39,20.0,19.0,1159,0,0,0.003654199428364014,Oliver Bearman,Haas F1 Team,Dutch Grand Prix
+2025,15,840,117,39,19.0,20.0,1159,0,0,0.00307222812351657,Lance Stroll,Aston Martin,Dutch Grand Prix
+2025,15,4,117,39,10.0,10.0,1159,0,0,0.2588629357853423,Fernando Alonso,Aston Martin,Dutch Grand Prix
+2025,15,852,9,39,12.0,12.0,1159,0,0,0.08187685612778442,Yuki Tsunoda,Red Bull,Dutch Grand Prix
+2025,15,839,210,39,18.0,18.0,1159,0,0,0.0061383389655573035,Esteban Ocon,Haas F1 Team,Dutch Grand Prix
+2025,15,861,214,39,16.0,16.0,1159,0,0,0.013920298646039955,Franco Colapinto,Alpine F1 Team,Dutch Grand Prix
+2025,15,859,215,39,8.0,8.0,1159,0,0,0.2932608087852554,Liam Lawson,RB F1 Team,Dutch Grand Prix
+2025,15,832,3,39,9.0,9.0,1159,0,0,0.24394232961982276,Carlos Sainz,Williams,Dutch Grand Prix
+2025,15,807,15,39,17.0,17.0,1159,0,0,0.010962377939784412,Nico Hülkenberg,Sauber,Dutch Grand Prix
+2025,15,864,15,39,13.0,13.0,1159,0,0,0.054558283225182136,Gabriel Bortoleto,Sauber,Dutch Grand Prix
+2025,15,863,131,39,11.0,11.0,1159,0,0,0.11009528434619612,Andrea Kimi Antonelli,Mercedes,Dutch Grand Prix
+2025,15,842,214,39,14.0,14.0,1159,0,0,0.03223378086374644,Pierre Gasly,Alpine F1 Team,Dutch Grand Prix
+2025,15,846,1,39,2.0,2.0,1159,0,1,0.8603218956583693,Lando Norris,McLaren,Dutch Grand Prix
+2025,15,844,6,39,6.0,6.0,1159,0,1,0.5313947866717118,Charles Leclerc,Ferrari,Dutch Grand Prix
+2025,15,1,6,39,7.0,7.0,1159,0,1,0.5737812276682889,Lewis Hamilton,Ferrari,Dutch Grand Prix
+2025,16,830,9,14,1.0,1.0,1160,1,1,0.8999721811798309,Max Verstappen,Red Bull,Italian Grand Prix
+2025,16,846,1,14,2.0,2.0,1160,1,1,0.8543158717789439,Lando Norris,McLaren,Italian Grand Prix
+2025,16,857,1,14,3.0,3.0,1160,1,1,0.792259027232558,Oscar Piastri,McLaren,Italian Grand Prix
+2025,16,844,6,14,4.0,4.0,1160,0,1,0.7153808131291145,Charles Leclerc,Ferrari,Italian Grand Prix
+2025,16,847,131,14,5.0,6.0,1160,0,1,0.5171993011180662,George Russell,Mercedes,Italian Grand Prix
+2025,16,1,6,14,10.0,5.0,1160,0,1,0.6623759588809136,Lewis Hamilton,Ferrari,Italian Grand Prix
+2025,16,848,3,14,14.0,14.0,1160,0,0,0.035429865888706405,Alexander Albon,Williams,Italian Grand Prix
+2025,16,864,15,14,7.0,8.0,1160,0,0,0.3306901284872515,Gabriel Bortoleto,Sauber,Italian Grand Prix
+2025,16,863,131,14,6.0,7.0,1160,0,0,0.40975870646000345,Andrea Kimi Antonelli,Mercedes,Italian Grand Prix
+2025,16,865,215,14,19.0,16.0,1160,0,0,0.01030652274490059,Isack Hadjar,RB F1 Team,Italian Grand Prix
+2025,16,832,3,14,13.0,13.0,1160,0,0,0.05363938551753869,Carlos Sainz,Williams,Italian Grand Prix
+2025,16,860,210,14,11.0,11.0,1160,0,0,0.10034801431775894,Oliver Bearman,Haas F1 Team,Italian Grand Prix
+2025,16,852,9,14,9.0,10.0,1160,0,0,0.17692314629727,Yuki Tsunoda,Red Bull,Italian Grand Prix
+2025,16,859,215,14,18.0,20.0,1160,0,0,0.00292618555405694,Liam Lawson,RB F1 Team,Italian Grand Prix
+2025,16,839,210,14,15.0,15.0,1160,0,0,0.02045995804043088,Esteban Ocon,Haas F1 Team,Italian Grand Prix
+2025,16,842,214,14,20.0,19.0,1160,0,0,0.0035139141521719425,Pierre Gasly,Alpine F1 Team,Italian Grand Prix
+2025,16,861,214,14,17.0,18.0,1160,0,0,0.00623912621190648,Franco Colapinto,Alpine F1 Team,Italian Grand Prix
+2025,16,840,117,14,16.0,17.0,1160,0,0,0.010314415585331324,Lance Stroll,Aston Martin,Italian Grand Prix
+2025,16,4,117,14,8.0,9.0,1160,0,0,0.35557598569142285,Fernando Alonso,Aston Martin,Italian Grand Prix
+2025,16,807,15,14,12.0,12.0,1160,0,0,0.08026082312343176,Nico Hülkenberg,Sauber,Italian Grand Prix
+2025,17,830,9,73,1.0,1.0,1161,1,1,0.9105147578969093,Max Verstappen,Red Bull,Azerbaijan Grand Prix
+2025,17,847,131,73,5.0,5.0,1161,1,1,0.6295984733860581,George Russell,Mercedes,Azerbaijan Grand Prix
+2025,17,832,3,73,2.0,2.0,1161,1,1,0.8699270493087069,Carlos Sainz,Williams,Azerbaijan Grand Prix
+2025,17,863,131,73,4.0,4.0,1161,0,1,0.719449286541743,Andrea Kimi Antonelli,Mercedes,Azerbaijan Grand Prix
+2025,17,859,215,73,3.0,3.0,1161,0,1,0.7869899542325224,Liam Lawson,RB F1 Team,Azerbaijan Grand Prix
+2025,17,852,9,73,6.0,6.0,1161,0,1,0.5478214910176036,Yuki Tsunoda,Red Bull,Azerbaijan Grand Prix
+2025,17,846,1,73,7.0,7.0,1161,0,0,0.4450529561886963,Lando Norris,McLaren,Azerbaijan Grand Prix
+2025,17,1,6,73,12.0,12.0,1161,0,0,0.149141529429871,Lewis Hamilton,Ferrari,Azerbaijan Grand Prix
+2025,17,844,6,73,10.0,10.0,1161,0,0,0.18386337228378535,Charles Leclerc,Ferrari,Azerbaijan Grand Prix
+2025,17,865,215,73,8.0,8.0,1161,0,0,0.30790912847209473,Isack Hadjar,RB F1 Team,Azerbaijan Grand Prix
+2025,17,864,15,73,13.0,13.0,1161,0,0,0.05849889288375449,Gabriel Bortoleto,Sauber,Azerbaijan Grand Prix
+2025,17,860,210,73,15.0,15.0,1161,0,0,0.02274524501698939,Oliver Bearman,Haas F1 Team,Azerbaijan Grand Prix
+2025,17,848,3,73,19.0,19.0,1161,0,0,0.004998198239714734,Alexander Albon,Williams,Azerbaijan Grand Prix
+2025,17,839,210,73,20.0,20.0,1161,0,0,0.0028483782254860755,Esteban Ocon,Haas F1 Team,Azerbaijan Grand Prix
+2025,17,4,117,73,11.0,11.0,1161,0,0,0.19773932470818692,Fernando Alonso,Aston Martin,Azerbaijan Grand Prix
+2025,17,807,15,73,17.0,17.0,1161,0,0,0.011793441784747666,Nico Hülkenberg,Sauber,Azerbaijan Grand Prix
+2025,17,840,117,73,14.0,14.0,1161,0,0,0.037070799004908825,Lance Stroll,Aston Martin,Azerbaijan Grand Prix
+2025,17,842,214,73,18.0,18.0,1161,0,0,0.006573530716249521,Pierre Gasly,Alpine F1 Team,Azerbaijan Grand Prix
+2025,17,861,214,73,16.0,16.0,1161,0,0,0.014972209466645762,Franco Colapinto,Alpine F1 Team,Azerbaijan Grand Prix
+2025,17,857,1,73,9.0,9.0,1161,0,0,0.25474653134071024,Oscar Piastri,McLaren,Azerbaijan Grand Prix
+2025,18,847,131,15,1.0,1.0,1162,1,1,0.8912735178294884,George Russell,Mercedes,Singapore Grand Prix
+2025,18,830,9,15,2.0,2.0,1162,1,1,0.8557829342279801,Max Verstappen,Red Bull,Singapore Grand Prix
+2025,18,846,1,15,5.0,5.0,1162,1,1,0.6242478419995727,Lando Norris,McLaren,Singapore Grand Prix
+2025,18,857,1,15,3.0,3.0,1162,0,1,0.7932929818518173,Oscar Piastri,McLaren,Singapore Grand Prix
+2025,18,863,131,15,4.0,4.0,1162,0,1,0.6952976110085802,Andrea Kimi Antonelli,Mercedes,Singapore Grand Prix
+2025,18,844,6,15,7.0,7.0,1162,0,0,0.41591159616772316,Charles Leclerc,Ferrari,Singapore Grand Prix
+2025,18,4,117,15,10.0,10.0,1162,0,0,0.25073446818814943,Fernando Alonso,Aston Martin,Singapore Grand Prix
+2025,18,1,6,15,6.0,6.0,1162,0,1,0.6630677804604537,Lewis Hamilton,Ferrari,Singapore Grand Prix
+2025,18,860,210,15,9.0,9.0,1162,0,0,0.20717383995567312,Oliver Bearman,Haas F1 Team,Singapore Grand Prix
+2025,18,832,3,15,18.0,13.0,1162,0,0,0.03614648099023625,Carlos Sainz,Williams,Singapore Grand Prix
+2025,18,865,215,15,8.0,8.0,1162,0,0,0.283606953334085,Isack Hadjar,RB F1 Team,Singapore Grand Prix
+2025,18,852,9,15,13.0,13.0,1162,0,0,0.05302850707011795,Yuki Tsunoda,Red Bull,Singapore Grand Prix
+2025,18,840,117,15,15.0,15.0,1162,0,0,0.021958677898774346,Lance Stroll,Aston Martin,Singapore Grand Prix
+2025,18,848,3,15,20.0,12.0,1162,0,0,0.04213973044760277,Alexander Albon,Williams,Singapore Grand Prix
+2025,18,859,215,15,12.0,12.0,1162,0,0,0.06834081747772565,Liam Lawson,RB F1 Team,Singapore Grand Prix
+2025,18,861,214,15,16.0,16.0,1162,0,0,0.013344703588011386,Franco Colapinto,Alpine F1 Team,Singapore Grand Prix
+2025,18,864,15,15,14.0,14.0,1162,0,0,0.03496870922780515,Gabriel Bortoleto,Sauber,Singapore Grand Prix
+2025,18,839,210,15,17.0,17.0,1162,0,0,0.008947939090665116,Esteban Ocon,Haas F1 Team,Singapore Grand Prix
+2025,18,842,214,15,19.0,18.0,1162,0,0,0.0053852125499245385,Pierre Gasly,Alpine F1 Team,Singapore Grand Prix
+2025,18,807,15,15,11.0,11.0,1162,0,0,0.11815670460811076,Nico Hülkenberg,Sauber,Singapore Grand Prix
+2025,19,830,9,69,1.0,1.0,1163,1,1,0.9101922470879615,Max Verstappen,Red Bull,United States Grand Prix
+2025,19,846,1,69,2.0,2.0,1163,1,1,0.8685192434148794,Lando Norris,McLaren,United States Grand Prix
+2025,19,844,6,69,3.0,3.0,1163,1,1,0.81202833813368,Charles Leclerc,Ferrari,United States Grand Prix
+2025,19,1,6,69,5.0,5.0,1163,0,1,0.7707026098107993,Lewis Hamilton,Ferrari,United States Grand Prix
+2025,19,857,1,69,6.0,6.0,1163,0,1,0.5473896080164198,Oscar Piastri,McLaren,United States Grand Prix
+2025,19,847,131,69,4.0,4.0,1163,0,1,0.7209250695936494,George Russell,Mercedes,United States Grand Prix
+2025,19,852,9,69,13.0,13.0,1163,0,0,0.058985654158630496,Yuki Tsunoda,Red Bull,United States Grand Prix
+2025,19,807,15,69,11.0,11.0,1163,0,0,0.1304226010076262,Nico Hülkenberg,Sauber,United States Grand Prix
+2025,19,860,210,69,8.0,8.0,1163,0,0,0.30858169126893153,Oliver Bearman,Haas F1 Team,United States Grand Prix
+2025,19,4,117,69,10.0,10.0,1163,0,0,0.2725102422610495,Fernando Alonso,Aston Martin,United States Grand Prix
+2025,19,859,215,69,12.0,12.0,1163,0,0,0.07588029204024901,Liam Lawson,RB F1 Team,United States Grand Prix
+2025,19,840,117,69,19.0,18.0,1163,0,0,0.006464055905656921,Lance Stroll,Aston Martin,United States Grand Prix
+2025,19,863,131,69,7.0,7.0,1163,0,0,0.418299839829272,Andrea Kimi Antonelli,Mercedes,United States Grand Prix
+2025,19,848,3,69,18.0,19.0,1163,0,0,0.005411750488373352,Alexander Albon,Williams,United States Grand Prix
+2025,19,839,210,69,17.0,17.0,1163,0,0,0.010005458866952963,Esteban Ocon,Haas F1 Team,United States Grand Prix
+2025,19,865,215,69,20.0,20.0,1163,0,0,0.002775874674539532,Isack Hadjar,RB F1 Team,United States Grand Prix
+2025,19,861,214,69,15.0,15.0,1163,0,0,0.022578632992823516,Franco Colapinto,Alpine F1 Team,United States Grand Prix
+2025,19,864,15,69,16.0,16.0,1163,0,0,0.017124776242960854,Gabriel Bortoleto,Sauber,United States Grand Prix
+2025,19,842,214,69,14.0,14.0,1163,0,0,0.034489154992826315,Pierre Gasly,Alpine F1 Team,United States Grand Prix
+2025,19,832,3,69,9.0,9.0,1163,0,0,0.25707587019700456,Carlos Sainz,Williams,United States Grand Prix
+2025,20,846,1,32,1.0,1.0,1164,1,1,0.9035011191172047,Lando Norris,McLaren,Mexico City Grand Prix
+2025,20,844,6,32,2.0,2.0,1164,1,1,0.8596107465410302,Charles Leclerc,Ferrari,Mexico City Grand Prix
+2025,20,830,9,32,5.0,5.0,1164,1,1,0.6346552980438738,Max Verstappen,Red Bull,Mexico City Grand Prix
+2025,20,860,210,32,9.0,10.0,1164,0,0,0.16224538515536416,Oliver Bearman,Haas F1 Team,Mexico City Grand Prix
+2025,20,857,1,32,7.0,8.0,1164,0,0,0.3441785956731874,Oscar Piastri,McLaren,Mexico City Grand Prix
+2025,20,863,131,32,6.0,6.0,1164,0,1,0.5047648725977575,Andrea Kimi Antonelli,Mercedes,Mexico City Grand Prix
+2025,20,847,131,32,4.0,4.0,1164,0,1,0.7058596709878918,George Russell,Mercedes,Mexico City Grand Prix
+2025,20,1,6,32,3.0,3.0,1164,0,1,0.8790656314770563,Lewis Hamilton,Ferrari,Mexico City Grand Prix
+2025,20,839,210,32,11.0,12.0,1164,0,0,0.07785597276039007,Esteban Ocon,Haas F1 Team,Mexico City Grand Prix
+2025,20,864,15,32,16.0,16.0,1164,0,0,0.015927517772498852,Gabriel Bortoleto,Sauber,Mexico City Grand Prix
+2025,20,852,9,32,10.0,11.0,1164,0,0,0.12847920811881836,Yuki Tsunoda,Red Bull,Mexico City Grand Prix
+2025,20,848,3,32,17.0,17.0,1164,0,0,0.010704910367370282,Alexander Albon,Williams,Mexico City Grand Prix
+2025,20,865,215,32,8.0,9.0,1164,0,0,0.22684558554936893,Isack Hadjar,RB F1 Team,Mexico City Grand Prix
+2025,20,840,117,32,19.0,19.0,1164,0,0,0.004289193702783735,Lance Stroll,Aston Martin,Mexico City Grand Prix
+2025,20,842,214,32,18.0,18.0,1164,0,0,0.006085415762838244,Pierre Gasly,Alpine F1 Team,Mexico City Grand Prix
+2025,20,861,214,32,20.0,20.0,1164,0,0,0.0025882808660013406,Franco Colapinto,Alpine F1 Team,Mexico City Grand Prix
+2025,20,832,3,32,12.0,7.0,1164,0,0,0.32977402360962554,Carlos Sainz,Williams,Mexico City Grand Prix
+2025,20,4,117,32,14.0,14.0,1164,0,0,0.06033179840445466,Fernando Alonso,Aston Martin,Mexico City Grand Prix
+2025,20,807,15,32,13.0,13.0,1164,0,0,0.05646848884665002,Nico Hülkenberg,Sauber,Mexico City Grand Prix
+2025,20,859,215,32,15.0,15.0,1164,0,0,0.02102248007515585,Liam Lawson,RB F1 Team,Mexico City Grand Prix
+2025,21,846,1,18,1.0,1.0,1165,1,1,0.9011600029364213,Lando Norris,McLaren,São Paulo Grand Prix
+2025,21,863,131,18,2.0,2.0,1165,1,1,0.8432409744793306,Andrea Kimi Antonelli,Mercedes,São Paulo Grand Prix
+2025,21,830,9,18,19.0,16.0,1165,1,0,0.01244951533980559,Max Verstappen,Red Bull,São Paulo Grand Prix
+2025,21,847,131,18,6.0,6.0,1165,0,1,0.5009424539540234,George Russell,Mercedes,São Paulo Grand Prix
+2025,21,857,1,18,4.0,4.0,1165,0,1,0.7180668037082026,Oscar Piastri,McLaren,São Paulo Grand Prix
+2025,21,860,210,18,8.0,8.0,1165,0,0,0.28761017475384604,Oliver Bearman,Haas F1 Team,São Paulo Grand Prix
+2025,21,859,215,18,7.0,7.0,1165,0,0,0.3805097929407343,Liam Lawson,RB F1 Team,São Paulo Grand Prix
+2025,21,865,215,18,5.0,5.0,1165,0,1,0.58744449716746,Isack Hadjar,RB F1 Team,São Paulo Grand Prix
+2025,21,807,15,18,10.0,10.0,1165,0,0,0.17150815809357847,Nico Hülkenberg,Sauber,São Paulo Grand Prix
+2025,21,842,214,18,9.0,9.0,1165,0,0,0.21086608614411773,Pierre Gasly,Alpine F1 Team,São Paulo Grand Prix
+2025,21,848,3,18,12.0,12.0,1165,0,0,0.08015115552369849,Alexander Albon,Williams,São Paulo Grand Prix
+2025,21,839,210,18,20.0,17.0,1165,0,0,0.007058651857944916,Esteban Ocon,Haas F1 Team,São Paulo Grand Prix
+2025,21,832,3,18,15.0,15.0,1165,0,0,0.024208239523129785,Carlos Sainz,Williams,São Paulo Grand Prix
+2025,21,4,117,18,11.0,11.0,1165,0,0,0.18172607362213622,Fernando Alonso,Aston Martin,São Paulo Grand Prix
+2025,21,861,214,18,16.0,18.0,1165,0,0,0.00690908066222477,Franco Colapinto,Alpine F1 Team,São Paulo Grand Prix
+2025,21,840,117,18,14.0,14.0,1165,0,0,0.03352503104769109,Lance Stroll,Aston Martin,São Paulo Grand Prix
+2025,21,852,9,18,17.0,19.0,1165,0,0,0.005286637360257203,Yuki Tsunoda,Red Bull,São Paulo Grand Prix
+2025,21,1,6,18,13.0,13.0,1165,0,0,0.0938017221710571,Lewis Hamilton,Ferrari,São Paulo Grand Prix
+2025,21,844,6,18,3.0,3.0,1165,0,1,0.7962441107157237,Charles Leclerc,Ferrari,São Paulo Grand Prix
+2025,22,830,9,80,2.0,2.0,1166,1,1,0.8724035790710583,Max Verstappen,Red Bull,Las Vegas Grand Prix
+2025,22,847,131,80,4.0,4.0,1166,1,1,0.726703701043632,George Russell,Mercedes,Las Vegas Grand Prix
+2025,22,863,131,80,17.0,17.0,1166,1,0,0.010708298126344818,Andrea Kimi Antonelli,Mercedes,Las Vegas Grand Prix
+2025,22,844,6,80,9.0,9.0,1166,0,0,0.26058673877771044,Charles Leclerc,Ferrari,Las Vegas Grand Prix
+2025,22,832,3,80,3.0,3.0,1166,0,1,0.8179853623363929,Carlos Sainz,Williams,Las Vegas Grand Prix
+2025,22,865,215,80,8.0,8.0,1166,0,0,0.3132525165893857,Isack Hadjar,RB F1 Team,Las Vegas Grand Prix
+2025,22,807,15,80,11.0,11.0,1166,0,0,0.13373623186414907,Nico Hülkenberg,Sauber,Las Vegas Grand Prix
+2025,22,1,6,80,19.0,20.0,1166,0,0,0.006609415548675848,Lewis Hamilton,Ferrari,Las Vegas Grand Prix
+2025,22,839,210,80,13.0,13.0,1166,0,0,0.05337236028569566,Esteban Ocon,Haas F1 Team,Las Vegas Grand Prix
+2025,22,860,210,80,14.0,14.0,1166,0,0,0.03513048422714312,Oliver Bearman,Haas F1 Team,Las Vegas Grand Prix
+2025,22,4,117,80,7.0,7.0,1166,0,1,0.5779881502948557,Fernando Alonso,Aston Martin,Las Vegas Grand Prix
+2025,22,852,9,80,20.0,19.0,1166,0,0,0.004680345418455967,Yuki Tsunoda,Red Bull,Las Vegas Grand Prix
+2025,22,842,214,80,10.0,10.0,1166,0,0,0.16616467570197252,Pierre Gasly,Alpine F1 Team,Las Vegas Grand Prix
+2025,22,859,215,80,6.0,6.0,1166,0,1,0.5160683094773999,Liam Lawson,RB F1 Team,Las Vegas Grand Prix
+2025,22,861,214,80,15.0,15.0,1166,0,0,0.02322546736601428,Franco Colapinto,Alpine F1 Team,Las Vegas Grand Prix
+2025,22,848,3,80,16.0,16.0,1166,0,0,0.01796546422079563,Alexander Albon,Williams,Las Vegas Grand Prix
+2025,22,864,15,80,18.0,18.0,1166,0,0,0.007644669150292998,Gabriel Bortoleto,Sauber,Las Vegas Grand Prix
+2025,22,840,117,80,12.0,12.0,1166,0,0,0.0841562497386614,Lance Stroll,Aston Martin,Las Vegas Grand Prix
+2025,22,846,1,80,1.0,1.0,1166,0,1,0.9120838757821077,Lando Norris,McLaren,Las Vegas Grand Prix
+2025,22,857,1,80,5.0,5.0,1166,0,1,0.6551034416349523,Oscar Piastri,McLaren,Las Vegas Grand Prix
+2025,24,830,9,24,1.0,1.0,1168,1,1,0.9032951161374982,Max Verstappen,Red Bull,Abu Dhabi Grand Prix
+2025,24,857,1,24,3.0,3.0,1168,1,1,0.79835848864183,Oscar Piastri,McLaren,Abu Dhabi Grand Prix
+2025,24,846,1,24,2.0,2.0,1168,1,1,0.8589177507999756,Lando Norris,McLaren,Abu Dhabi Grand Prix
+2025,24,844,6,24,5.0,5.0,1168,0,1,0.631025956244111,Charles Leclerc,Ferrari,Abu Dhabi Grand Prix
+2025,24,847,131,24,4.0,4.0,1168,0,1,0.7042160216123142,George Russell,Mercedes,Abu Dhabi Grand Prix
+2025,24,4,117,24,6.0,6.0,1168,0,1,0.6517012287316821,Fernando Alonso,Aston Martin,Abu Dhabi Grand Prix
+2025,24,839,210,24,8.0,8.0,1168,0,0,0.29451433041867,Esteban Ocon,Haas F1 Team,Abu Dhabi Grand Prix
+2025,24,1,6,24,16.0,16.0,1168,0,0,0.02883379529239101,Lewis Hamilton,Ferrari,Abu Dhabi Grand Prix
+2025,24,807,15,24,18.0,18.0,1168,0,0,0.007129131281215672,Nico Hülkenberg,Sauber,Abu Dhabi Grand Prix
+2025,24,840,117,24,15.0,15.0,1168,0,0,0.0226383052492073,Lance Stroll,Aston Martin,Abu Dhabi Grand Prix
+2025,24,864,15,24,7.0,7.0,1168,0,0,0.4184970855005028,Gabriel Bortoleto,Sauber,Abu Dhabi Grand Prix
+2025,24,860,210,24,11.0,11.0,1168,0,0,0.10378175041373615,Oliver Bearman,Haas F1 Team,Abu Dhabi Grand Prix
+2025,24,832,3,24,12.0,12.0,1168,0,0,0.08238624238200307,Carlos Sainz,Williams,Abu Dhabi Grand Prix
+2025,24,852,9,24,10.0,10.0,1168,0,0,0.17026830485054617,Yuki Tsunoda,Red Bull,Abu Dhabi Grand Prix
+2025,24,863,131,24,14.0,14.0,1168,0,0,0.0332803801139719,Andrea Kimi Antonelli,Mercedes,Abu Dhabi Grand Prix
+2025,24,848,3,24,17.0,17.0,1168,0,0,0.010621530412798952,Alexander Albon,Williams,Abu Dhabi Grand Prix
+2025,24,865,215,24,9.0,9.0,1168,0,0,0.21115529101553512,Isack Hadjar,RB F1 Team,Abu Dhabi Grand Prix
+2025,24,859,215,24,13.0,13.0,1168,0,0,0.04725468383482884,Liam Lawson,RB F1 Team,Abu Dhabi Grand Prix
+2025,24,842,214,24,19.0,19.0,1168,0,0,0.003965412732128501,Pierre Gasly,Alpine F1 Team,Abu Dhabi Grand Prix
+2025,24,861,214,24,20.0,20.0,1168,0,0,0.0025679567866617346,Franco Colapinto,Alpine F1 Team,Abu Dhabi Grand Prix
+2026,1,847,131,1,1.0,1.0,1169,1,1,0.8849946883672609,George Russell,Mercedes,Australian Grand Prix
+2026,1,863,131,1,2.0,2.0,1169,1,1,0.8329688617691174,Andrea Kimi Antonelli,Mercedes,Australian Grand Prix
+2026,1,844,6,1,4.0,4.0,1169,1,1,0.7036508679376862,Charles Leclerc,Ferrari,Australian Grand Prix
+2026,1,1,6,1,7.0,7.0,1169,0,1,0.547672422799903,Lewis Hamilton,Ferrari,Australian Grand Prix
+2026,1,846,1,1,6.0,6.0,1169,0,1,0.5054730207925429,Lando Norris,McLaren,Australian Grand Prix
+2026,1,860,210,1,12.0,12.0,1169,0,0,0.06459789444268695,Oliver Bearman,Haas F1 Team,Australian Grand Prix
+2026,1,866,215,1,9.0,9.0,1169,0,0,0.19575043068067846,Arvid Lindblad,RB F1 Team,Australian Grand Prix
+2026,1,864,217,1,10.0,10.0,1169,0,0,0.13757193450637245,Gabriel Bortoleto,Audi,Australian Grand Prix
+2026,1,842,214,1,14.0,14.0,1169,0,0,0.0290854537646371,Pierre Gasly,Alpine F1 Team,Australian Grand Prix
+2026,1,839,210,1,13.0,13.0,1169,0,0,0.04391847715533304,Esteban Ocon,Haas F1 Team,Australian Grand Prix
+2026,1,848,3,1,15.0,15.0,1169,0,0,0.022235942649290834,Alexander Albon,Williams,Australian Grand Prix
+2026,1,859,215,1,8.0,8.0,1169,0,0,0.2717772685272852,Liam Lawson,RB F1 Team,Australian Grand Prix
+2026,1,861,214,1,16.0,16.0,1169,0,0,0.012537506983996163,Franco Colapinto,Alpine F1 Team,Australian Grand Prix
+2026,1,815,216,1,18.0,18.0,1169,0,0,0.005593978918601705,Sergio Pérez,Cadillac,Australian Grand Prix
+2026,1,4,117,1,17.0,17.0,1169,0,0,0.016055843026902987,Fernando Alonso,Aston Martin,Australian Grand Prix
+2026,1,822,216,1,19.0,19.0,1169,0,0,0.003655355847410809,Valtteri Bottas,Cadillac,Australian Grand Prix
+2026,1,865,9,1,3.0,3.0,1169,0,1,0.7807954539103471,Isack Hadjar,Red Bull,Australian Grand Prix
+2026,1,857,1,1,5.0,5.0,1169,0,1,0.6074613024901601,Oscar Piastri,McLaren,Australian Grand Prix
+2026,1,807,217,1,11.0,11.0,1169,0,0,0.09815020721435869,Nico Hülkenberg,Audi,Australian Grand Prix
+2026,2,863,131,17,1.0,1.0,1170,1,1,0.8873782514107619,Andrea Kimi Antonelli,Mercedes,Chinese Grand Prix
+2026,2,847,131,17,2.0,2.0,1170,1,1,0.8392960426759426,George Russell,Mercedes,Chinese Grand Prix
+2026,2,1,6,17,3.0,3.0,1170,1,1,0.8717171573659154,Lewis Hamilton,Ferrari,Chinese Grand Prix
+2026,2,844,6,17,4.0,4.0,1170,0,1,0.7108780696295888,Charles Leclerc,Ferrari,Chinese Grand Prix
+2026,2,860,210,17,10.0,10.0,1170,0,0,0.1427221797337036,Oliver Bearman,Haas F1 Team,Chinese Grand Prix
+2026,2,842,214,17,7.0,7.0,1170,0,0,0.373903401559999,Pierre Gasly,Alpine F1 Team,Chinese Grand Prix
+2026,2,859,215,17,14.0,14.0,1170,0,0,0.02971931202133663,Liam Lawson,RB F1 Team,Chinese Grand Prix
+2026,2,865,9,17,9.0,9.0,1170,0,0,0.22620657350731538,Isack Hadjar,Red Bull,Chinese Grand Prix
+2026,2,832,3,17,17.0,17.0,1170,0,0,0.01012672472225536,Carlos Sainz,Williams,Chinese Grand Prix
+2026,2,861,214,17,12.0,12.0,1170,0,0,0.06651750767516004,Franco Colapinto,Alpine F1 Team,Chinese Grand Prix
+2026,2,807,217,17,11.0,11.0,1170,0,0,0.10128382261133678,Nico Hülkenberg,Audi,Chinese Grand Prix
+2026,2,866,215,17,15.0,15.0,1170,0,0,0.019584589996513926,Arvid Lindblad,RB F1 Team,Chinese Grand Prix
+2026,2,822,216,17,19.0,20.0,1170,0,0,0.0027004282569098974,Valtteri Bottas,Cadillac,Chinese Grand Prix
+2026,2,839,210,17,13.0,13.0,1170,0,0,0.0454078281293136,Esteban Ocon,Haas F1 Team,Chinese Grand Prix
+2026,2,815,216,17,21.0,22.0,1170,0,0,0.0011674886474255027,Sergio Pérez,Cadillac,Chinese Grand Prix
+2026,2,830,9,17,8.0,8.0,1170,0,0,0.313742640062808,Max Verstappen,Red Bull,Chinese Grand Prix
+2026,2,4,117,17,18.0,19.0,1170,0,0,0.007831417883824654,Fernando Alonso,Aston Martin,Chinese Grand Prix
+2026,2,840,117,17,20.0,21.0,1170,0,0,0.0018775584704482115,Lance Stroll,Aston Martin,Chinese Grand Prix
+2026,2,857,1,17,5.0,5.0,1170,0,1,0.615753328271859,Oscar Piastri,McLaren,Chinese Grand Prix
+2026,2,846,1,17,6.0,6.0,1170,0,1,0.5141965158229239,Lando Norris,McLaren,Chinese Grand Prix
+2026,2,864,217,17,16.0,16.0,1170,0,0,0.01292262161918796,Gabriel Bortoleto,Audi,Chinese Grand Prix
+2026,2,848,3,17,22.0,18.0,1170,0,0,0.004718019199954671,Alexander Albon,Williams,Chinese Grand Prix
+2026,3,863,131,22,1.0,1.0,1171,1,1,0.8886083730394443,Andrea Kimi Antonelli,Mercedes,Japanese Grand Prix
+2026,3,857,1,22,3.0,3.0,1171,1,1,0.7906675437041593,Oscar Piastri,McLaren,Japanese Grand Prix
+2026,3,844,6,22,4.0,4.0,1171,1,1,0.7134134183135443,Charles Leclerc,Ferrari,Japanese Grand Prix
+2026,3,847,131,22,2.0,2.0,1171,0,1,0.8409572194949267,George Russell,Mercedes,Japanese Grand Prix
+2026,3,846,1,22,5.0,5.0,1171,0,1,0.6205024468876584,Lando Norris,McLaren,Japanese Grand Prix
+2026,3,1,6,22,6.0,6.0,1171,0,1,0.6594982683489186,Lewis Hamilton,Ferrari,Japanese Grand Prix
+2026,3,842,214,22,7.0,7.0,1171,0,0,0.3768032235659004,Pierre Gasly,Alpine F1 Team,Japanese Grand Prix
+2026,3,830,9,22,11.0,11.0,1171,0,0,0.11528604130373352,Max Verstappen,Red Bull,Japanese Grand Prix
+2026,3,859,215,22,14.0,14.0,1171,0,0,0.030078037539795207,Liam Lawson,RB F1 Team,Japanese Grand Prix
+2026,3,839,210,22,12.0,12.0,1171,0,0,0.06845170216135979,Esteban Ocon,Haas F1 Team,Japanese Grand Prix
+2026,3,807,217,22,13.0,13.0,1171,0,0,0.04672176004033589,Nico Hülkenberg,Audi,Japanese Grand Prix
+2026,3,865,9,22,8.0,8.0,1171,0,0,0.31110117103032503,Isack Hadjar,Red Bull,Japanese Grand Prix
+2026,3,864,217,22,9.0,9.0,1171,0,0,0.2032966171871948,Gabriel Bortoleto,Audi,Japanese Grand Prix
+2026,3,866,215,22,10.0,10.0,1171,0,0,0.14328067847820036,Arvid Lindblad,RB F1 Team,Japanese Grand Prix
+2026,3,832,3,22,16.0,16.0,1171,0,0,0.015557710335990878,Carlos Sainz,Williams,Japanese Grand Prix
+2026,3,861,214,22,15.0,15.0,1171,0,0,0.019906037633777327,Franco Colapinto,Alpine F1 Team,Japanese Grand Prix
+2026,3,815,216,22,19.0,19.0,1171,0,0,0.0038505145919782093,Sergio Pérez,Cadillac,Japanese Grand Prix
+2026,3,4,117,22,21.0,21.0,1171,0,0,0.0031466402533702133,Fernando Alonso,Aston Martin,Japanese Grand Prix
+2026,3,822,216,22,20.0,20.0,1171,0,0,0.002514570465072747,Valtteri Bottas,Cadillac,Japanese Grand Prix
+2026,3,848,3,22,17.0,17.0,1171,0,0,0.010137684504169176,Alexander Albon,Williams,Japanese Grand Prix
+2026,3,840,117,22,22.0,22.0,1171,0,0,0.0011464814122655452,Lance Stroll,Aston Martin,Japanese Grand Prix
+2026,3,860,210,22,18.0,18.0,1171,0,0,0.005705567300134065,Oliver Bearman,Haas F1 Team,Japanese Grand Prix
+2026,4,863,131,79,1.0,1.0,1172,1,1,0.8998471201916648,Andrea Kimi Antonelli,Mercedes,Miami Grand Prix
+2026,4,846,1,79,4.0,4.0,1172,1,1,0.7375195738822711,Lando Norris,McLaren,Miami Grand Prix
+2026,4,857,1,79,7.0,7.0,1172,1,0,0.4397511893142299,Oscar Piastri,McLaren,Miami Grand Prix
+2026,4,847,131,79,5.0,5.0,1172,0,1,0.626388400354742,George Russell,Mercedes,Miami Grand Prix
+2026,4,830,9,79,2.0,2.0,1172,0,1,0.8680336494473883,Max Verstappen,Red Bull,Miami Grand Prix
+2026,4,1,6,79,6.0,6.0,1172,0,1,0.6856761807612607,Lewis Hamilton,Ferrari,Miami Grand Prix
+2026,4,861,214,79,8.0,8.0,1172,0,0,0.3057386058733287,Franco Colapinto,Alpine F1 Team,Miami Grand Prix
+2026,4,844,6,79,3.0,3.0,1172,0,1,0.8105296084051564,Charles Leclerc,Ferrari,Miami Grand Prix
+2026,4,832,3,79,13.0,13.0,1172,0,0,0.05946505372055669,Carlos Sainz,Williams,Miami Grand Prix
+2026,4,848,3,79,15.0,15.0,1172,0,0,0.026151239685218947,Alexander Albon,Williams,Miami Grand Prix
+2026,4,860,210,79,12.0,12.0,1172,0,0,0.07539708674031194,Oliver Bearman,Haas F1 Team,Miami Grand Prix
+2026,4,864,217,79,21.0,21.0,1172,0,0,0.001802027915609985,Gabriel Bortoleto,Audi,Miami Grand Prix
+2026,4,839,210,79,14.0,14.0,1172,0,0,0.034329381545835216,Esteban Ocon,Haas F1 Team,Miami Grand Prix
+2026,4,866,215,79,16.0,16.0,1172,0,0,0.01470932782024054,Arvid Lindblad,RB F1 Team,Miami Grand Prix
+2026,4,4,117,79,17.0,17.0,1172,0,0,0.01890398922302167,Fernando Alonso,Aston Martin,Miami Grand Prix
+2026,4,815,216,79,20.0,20.0,1172,0,0,0.002845179119867693,Sergio Pérez,Cadillac,Miami Grand Prix
+2026,4,840,117,79,18.0,18.0,1172,0,0,0.006957594959216065,Lance Stroll,Aston Martin,Miami Grand Prix
+2026,4,822,216,79,19.0,19.0,1172,0,0,0.0043134226293136,Valtteri Bottas,Cadillac,Miami Grand Prix
+2026,4,807,217,79,10.0,10.0,1172,0,0,0.1639347892964927,Nico Hülkenberg,Audi,Miami Grand Prix
+2026,4,859,215,79,11.0,11.0,1172,0,0,0.1103705743169429,Liam Lawson,RB F1 Team,Miami Grand Prix
+2026,4,842,214,79,9.0,9.0,1172,0,0,0.2263143287220821,Pierre Gasly,Alpine F1 Team,Miami Grand Prix
+2026,4,865,9,79,22.0,22.0,1172,0,0,0.00137047964768225,Isack Hadjar,Red Bull,Miami Grand Prix
+2026,5,863,131,7,2.0,2.0,1173,1,1,0.8358406090103072,Andrea Kimi Antonelli,Mercedes,Canadian Grand Prix
+2026,5,1,6,7,5.0,5.0,1173,1,1,0.7421319377073987,Lewis Hamilton,Ferrari,Canadian Grand Prix
+2026,5,830,9,7,6.0,6.0,1173,1,1,0.5120527199922158,Max Verstappen,Red Bull,Canadian Grand Prix
+2026,5,844,6,7,8.0,8.0,1173,0,0,0.30905941680165405,Charles Leclerc,Ferrari,Canadian Grand Prix
+2026,5,865,9,7,7.0,7.0,1173,0,0,0.4015630978109,Isack Hadjar,Red Bull,Canadian Grand Prix
+2026,5,861,214,7,10.0,10.0,1173,0,0,0.14057080683280807,Franco Colapinto,Alpine F1 Team,Canadian Grand Prix
+2026,5,859,215,7,12.0,12.0,1173,0,0,0.06568835277458547,Liam Lawson,RB F1 Team,Canadian Grand Prix
+2026,5,842,214,7,14.0,14.0,1173,0,0,0.02967816527511111,Pierre Gasly,Alpine F1 Team,Canadian Grand Prix
+2026,5,832,3,7,15.0,15.0,1173,0,0,0.022943740455622808,Carlos Sainz,Williams,Canadian Grand Prix
+2026,5,860,210,7,16.0,16.0,1173,0,0,0.012842634421067204,Oliver Bearman,Haas F1 Team,Canadian Grand Prix
+2026,5,857,1,7,4.0,4.0,1173,0,1,0.7068117614944597,Oscar Piastri,McLaren,Canadian Grand Prix
+2026,5,807,217,7,11.0,11.0,1173,0,0,0.10000537353219426,Nico Hülkenberg,Audi,Canadian Grand Prix
+2026,5,864,217,7,13.0,13.0,1173,0,0,0.043840904811967576,Gabriel Bortoleto,Audi,Canadian Grand Prix
+2026,5,839,210,7,17.0,17.0,1173,0,0,0.008579421155135521,Esteban Ocon,Haas F1 Team,Canadian Grand Prix
+2026,5,840,117,7,22.0,21.0,1173,0,0,0.0015658594097750595,Lance Stroll,Aston Martin,Canadian Grand Prix
+2026,5,822,216,7,21.0,22.0,1173,0,0,0.00114547548332833,Valtteri Bottas,Cadillac,Canadian Grand Prix
+2026,5,815,216,7,20.0,20.0,1173,0,0,0.0024610701513497514,Sergio Pérez,Cadillac,Canadian Grand Prix
+2026,5,846,1,7,3.0,3.0,1173,0,1,0.7875488530832182,Lando Norris,McLaren,Canadian Grand Prix
+2026,5,847,131,7,1.0,1.0,1173,0,1,0.8870932051964133,George Russell,Mercedes,Canadian Grand Prix
+2026,5,4,117,7,19.0,19.0,1173,0,0,0.007105632937871434,Fernando Alonso,Aston Martin,Canadian Grand Prix
+2026,5,848,3,7,18.0,18.0,1173,0,0,0.006494327903314266,Alexander Albon,Williams,Canadian Grand Prix
+2026,5,866,215,7,9.0,9.0,1173,0,0,0.19904321680822912,Arvid Lindblad,RB F1 Team,Canadian Grand Prix
+2026,6,863,131,6,1.0,1.0,1174,1,1,0.8859663495117028,Andrea Kimi Antonelli,Mercedes,Monaco Grand Prix
+2026,6,1,6,6,3.0,3.0,1174,1,1,0.8701376503290879,Lewis Hamilton,Ferrari,Monaco Grand Prix
+2026,6,842,214,6,9.0,9.0,1174,1,0,0.20188048438486836,Pierre Gasly,Alpine F1 Team,Monaco Grand Prix
+2026,6,865,9,6,5.0,5.0,1174,0,1,0.609721328302149,Isack Hadjar,Red Bull,Monaco Grand Prix
+2026,6,857,1,6,7.0,7.0,1174,0,0,0.4043159981366022,Oscar Piastri,McLaren,Monaco Grand Prix
+2026,6,859,215,6,10.0,10.0,1174,0,0,0.14066338507438636,Liam Lawson,RB F1 Team,Monaco Grand Prix
+2026,6,866,215,6,15.0,15.0,1174,0,0,0.019316607752654667,Arvid Lindblad,RB F1 Team,Monaco Grand Prix
+2026,6,848,3,6,11.0,11.0,1174,0,0,0.11178338731078466,Alexander Albon,Williams,Monaco Grand Prix
+2026,6,839,210,6,17.0,17.0,1174,0,0,0.008580043794443055,Esteban Ocon,Haas F1 Team,Monaco Grand Prix
+2026,6,4,117,6,21.0,21.0,1174,0,0,0.003064848926152296,Fernando Alonso,Aston Martin,Monaco Grand Prix
+2026,6,864,217,6,16.0,16.0,1174,0,0,0.012744612252452736,Gabriel Bortoleto,Audi,Monaco Grand Prix
+2026,6,847,131,6,6.0,6.0,1174,0,0,0.48722780142842936,George Russell,Mercedes,Monaco Grand Prix
+2026,6,807,217,6,13.0,13.0,1174,0,0,0.04555907656757042,Nico Hülkenberg,Audi,Monaco Grand Prix
+2026,6,861,214,6,14.0,14.0,1174,0,0,0.02929708827282737,Franco Colapinto,Alpine F1 Team,Monaco Grand Prix
+2026,6,815,216,6,18.0,18.0,1174,0,0,0.005711205980102182,Sergio Pérez,Cadillac,Monaco Grand Prix
+2026,6,832,3,6,12.0,12.0,1174,0,0,0.07699532626989646,Carlos Sainz,Williams,Monaco Grand Prix
+2026,6,844,6,6,4.0,4.0,1174,0,1,0.7079816062708013,Charles Leclerc,Ferrari,Monaco Grand Prix
+2026,6,840,117,6,22.0,22.0,1174,0,0,0.0011166224261827669,Lance Stroll,Aston Martin,Monaco Grand Prix
+2026,6,846,1,6,8.0,8.0,1174,0,0,0.3095393041052145,Lando Norris,McLaren,Monaco Grand Prix
+2026,6,860,210,6,19.0,19.0,1174,0,0,0.003649452033116646,Oliver Bearman,Haas F1 Team,Monaco Grand Prix
+2026,6,822,216,6,20.0,20.0,1174,0,0,0.002449168304195089,Valtteri Bottas,Cadillac,Monaco Grand Prix
+2026,6,830,9,6,2.0,2.0,1174,0,1,0.8504763245463706,Max Verstappen,Red Bull,Monaco Grand Prix
+2026,7,1,6,4,2.0,2.0,1175,1,1,0.9107406953710623,Lewis Hamilton,Ferrari,Barcelona-Catalunya Grand Prix
+2026,7,847,131,4,1.0,1.0,1175,1,1,0.8869024895438643,George Russell,Mercedes,Barcelona-Catalunya Grand Prix
+2026,7,846,1,4,4.0,4.0,1175,1,1,0.7080223715599465,Lando Norris,McLaren,Barcelona-Catalunya Grand Prix
+2026,7,830,9,4,5.0,5.0,1175,0,1,0.615106699535512,Max Verstappen,Red Bull,Barcelona-Catalunya Grand Prix
+2026,7,857,1,4,7.0,7.0,1175,0,0,0.40384019650037095,Oscar Piastri,McLaren,Barcelona-Catalunya Grand Prix
+2026,7,865,9,4,6.0,6.0,1175,0,1,0.5054130274757196,Isack Hadjar,Red Bull,Barcelona-Catalunya Grand Prix
+2026,7,842,214,4,14.0,14.0,1175,0,0,0.029623420661433298,Pierre Gasly,Alpine F1 Team,Barcelona-Catalunya Grand Prix
+2026,7,859,215,4,8.0,8.0,1175,0,0,0.2755302187791636,Liam Lawson,RB F1 Team,Barcelona-Catalunya Grand Prix
+2026,7,866,215,4,11.0,11.0,1175,0,0,0.09628409036016895,Arvid Lindblad,RB F1 Team,Barcelona-Catalunya Grand Prix
+2026,7,861,214,4,13.0,13.0,1175,0,0,0.04393997704374394,Franco Colapinto,Alpine F1 Team,Barcelona-Catalunya Grand Prix
+2026,7,864,217,4,12.0,12.0,1175,0,0,0.06526862985406441,Gabriel Bortoleto,Audi,Barcelona-Catalunya Grand Prix
+2026,7,832,3,4,16.0,16.0,1175,0,0,0.01512875149723198,Carlos Sainz,Williams,Barcelona-Catalunya Grand Prix
+2026,7,839,210,4,17.0,17.0,1175,0,0,0.008563252010722347,Esteban Ocon,Haas F1 Team,Barcelona-Catalunya Grand Prix
+2026,7,815,216,4,19.0,19.0,1175,0,0,0.0037431204512702442,Sergio Pérez,Cadillac,Barcelona-Catalunya Grand Prix
+2026,7,844,6,4,10.0,10.0,1175,0,0,0.16091344926515416,Charles Leclerc,Ferrari,Barcelona-Catalunya Grand Prix
+2026,7,863,131,4,3.0,3.0,1175,0,1,0.7690909372921153,Andrea Kimi Antonelli,Mercedes,Barcelona-Catalunya Grand Prix
+2026,7,860,210,4,15.0,15.0,1175,0,0,0.01942744960020601,Oliver Bearman,Haas F1 Team,Barcelona-Catalunya Grand Prix
+2026,7,848,3,4,18.0,18.0,1175,0,0,0.006482062722205708,Alexander Albon,Williams,Barcelona-Catalunya Grand Prix
+2026,7,4,117,4,22.0,22.0,1175,0,0,0.0020068592271104573,Fernando Alonso,Aston Martin,Barcelona-Catalunya Grand Prix
+2026,7,807,217,4,9.0,9.0,1175,0,0,0.20521011185383034,Nico Hülkenberg,Audi,Barcelona-Catalunya Grand Prix
+2026,7,822,216,4,20.0,20.0,1175,0,0,0.0024443455172103584,Valtteri Bottas,Cadillac,Barcelona-Catalunya Grand Prix
+2026,7,840,117,4,21.0,21.0,1175,0,0,0.001699375849742575,Lance Stroll,Aston Martin,Barcelona-Catalunya Grand Prix
+2026,8,847,131,70,1.0,1.0,1176,1,1,0.8999662324427049,George Russell,Mercedes,Austrian Grand Prix
+2026,8,830,9,70,5.0,5.0,1176,1,1,0.6470721961318339,Max Verstappen,Red Bull,Austrian Grand Prix
+2026,8,863,131,70,4.0,4.0,1176,1,1,0.7146421487598033,Andrea Kimi Antonelli,Mercedes,Austrian Grand Prix
+2026,8,857,1,70,7.0,7.0,1176,0,0,0.43730059619069284,Oscar Piastri,McLaren,Austrian Grand Prix
+2026,8,1,6,70,3.0,3.0,1176,0,1,0.8846851100908554,Lewis Hamilton,Ferrari,Austrian Grand Prix
+2026,8,865,9,70,8.0,8.0,1176,0,0,0.3349220390534101,Isack Hadjar,Red Bull,Austrian Grand Prix
+2026,8,846,1,70,6.0,6.0,1176,0,1,0.5444173691885899,Lando Norris,McLaren,Austrian Grand Prix
+2026,8,844,6,70,2.0,2.0,1176,0,1,0.8659964321244271,Charles Leclerc,Ferrari,Austrian Grand Prix
+2026,8,859,215,70,9.0,9.0,1176,0,0,0.22237312881939267,Liam Lawson,RB F1 Team,Austrian Grand Prix
+2026,8,866,215,70,10.0,10.0,1176,0,0,0.15718353437828628,Arvid Lindblad,RB F1 Team,Austrian Grand Prix
+2026,8,864,217,70,12.0,12.0,1176,0,0,0.07416642792669406,Gabriel Bortoleto,Audi,Austrian Grand Prix
+2026,8,807,217,70,14.0,14.0,1176,0,0,0.03458162303511838,Nico Hülkenberg,Audi,Austrian Grand Prix
+2026,8,842,214,70,11.0,11.0,1176,0,0,0.11064025127945884,Pierre Gasly,Alpine F1 Team,Austrian Grand Prix
+2026,8,860,210,70,13.0,13.0,1176,0,0,0.05025608879951664,Oliver Bearman,Haas F1 Team,Austrian Grand Prix
+2026,8,861,214,70,16.0,16.0,1176,0,0,0.014626761042772428,Franco Colapinto,Alpine F1 Team,Austrian Grand Prix
+2026,8,839,210,70,15.0,15.0,1176,0,0,0.022548367197317287,Esteban Ocon,Haas F1 Team,Austrian Grand Prix
+2026,8,848,3,70,18.0,18.0,1176,0,0,0.007429432981159839,Alexander Albon,Williams,Austrian Grand Prix
+2026,8,4,117,70,21.0,21.0,1176,0,0,0.0035076379649010853,Fernando Alonso,Aston Martin,Austrian Grand Prix
+2026,8,840,117,70,22.0,22.0,1176,0,0,0.001278305532696639,Lance Stroll,Aston Martin,Austrian Grand Prix
+2026,8,832,3,70,17.0,17.0,1176,0,0,0.011418217683252374,Carlos Sainz,Williams,Austrian Grand Prix
+2026,8,815,216,70,19.0,19.0,1176,0,0,0.0042919164804779775,Sergio Pérez,Cadillac,Austrian Grand Prix
+2026,8,822,216,70,20.0,20.0,1176,0,0,0.0028032580063153097,Valtteri Bottas,Cadillac,Austrian Grand Prix
+2026,9,844,6,9,2.0,2.0,1177,1,1,0.8510854508411664,Charles Leclerc,Ferrari,British Grand Prix
+2026,9,847,131,9,4.0,4.0,1177,1,1,0.6913500851872671,George Russell,Mercedes,British Grand Prix
+2026,9,1,6,9,3.0,3.0,1177,1,1,0.8715452117001586,Lewis Hamilton,Ferrari,British Grand Prix
+2026,9,846,1,9,6.0,6.0,1177,0,1,0.5138126334767027,Lando Norris,McLaren,British Grand Prix
+2026,9,865,9,9,5.0,5.0,1177,0,1,0.6126951396563391,Isack Hadjar,Red Bull,British Grand Prix
+2026,9,859,215,9,10.0,10.0,1177,0,0,0.14218289956235333,Liam Lawson,RB F1 Team,British Grand Prix
+2026,9,866,215,9,9.0,9.0,1177,0,0,0.20105759373273177,Arvid Lindblad,RB F1 Team,British Grand Prix
+2026,9,864,217,9,11.0,11.0,1177,0,0,0.09755025991857298,Gabriel Bortoleto,Audi,British Grand Prix
+2026,9,861,214,9,19.0,19.0,1177,0,0,0.0036821171258381584,Franco Colapinto,Alpine F1 Team,British Grand Prix
+2026,9,842,214,9,15.0,12.0,1177,0,0,0.0530911549973338,Pierre Gasly,Alpine F1 Team,British Grand Prix
+2026,9,857,1,9,8.0,8.0,1177,0,0,0.3105581230414729,Oscar Piastri,McLaren,British Grand Prix
+2026,9,860,210,9,13.0,14.0,1177,0,0,0.03227720066713969,Oliver Bearman,Haas F1 Team,British Grand Prix
+2026,9,839,210,9,17.0,17.0,1177,0,0,0.008687153621962705,Esteban Ocon,Haas F1 Team,British Grand Prix
+2026,9,815,216,9,20.0,20.0,1177,0,0,0.002492167129643,Sergio Pérez,Cadillac,British Grand Prix
+2026,9,863,131,9,1.0,1.0,1177,0,1,0.8872245815956263,Andrea Kimi Antonelli,Mercedes,British Grand Prix
+2026,9,822,216,9,18.0,18.0,1177,0,0,0.005754419685215948,Valtteri Bottas,Cadillac,British Grand Prix
+2026,9,832,3,9,14.0,15.0,1177,0,0,0.02520834096392222,Carlos Sainz,Williams,British Grand Prix
+2026,9,4,117,9,21.0,22.0,1177,0,0,0.0022138133181337076,Fernando Alonso,Aston Martin,British Grand Prix
+2026,9,840,117,9,22.0,21.0,1177,0,0,0.0015856628872140646,Lance Stroll,Aston Martin,British Grand Prix
+2026,9,830,9,9,7.0,7.0,1177,0,0,0.4105470612952859,Max Verstappen,Red Bull,British Grand Prix
+2026,9,848,3,9,16.0,16.0,1177,0,0,0.015176730484617575,Alexander Albon,Williams,British Grand Prix
+2026,9,807,217,9,12.0,13.0,1177,0,0,0.049938293173758516,Nico Hülkenberg,Audi,British Grand Prix
+2026,10,863,131,13,1.0,1.0,1178,1,1,0.888252936742912,Andrea Kimi Antonelli,Mercedes,Belgian Grand Prix
+2026,10,844,6,13,4.0,5.0,1178,1,1,0.6387135878375757,Charles Leclerc,Ferrari,Belgian Grand Prix
+2026,10,830,9,13,2.0,2.0,1178,1,1,0.8533567636198216,Max Verstappen,Red Bull,Belgian Grand Prix
+2026,10,1,6,13,5.0,6.0,1178,0,1,0.6772879240552686,Lewis Hamilton,Ferrari,Belgian Grand Prix
+2026,10,857,1,13,6.0,7.0,1178,0,0,0.4302533184699831,Oscar Piastri,McLaren,Belgian Grand Prix
+2026,10,865,9,13,21.0,10.0,1178,0,0,0.07135389121160159,Isack Hadjar,Red Bull,Belgian Grand Prix
+2026,10,846,1,13,13.0,3.0,1178,0,1,0.6211642717687859,Lando Norris,McLaren,Belgian Grand Prix
+2026,10,864,217,13,8.0,9.0,1178,0,0,0.216608746777643,Gabriel Bortoleto,Audi,Belgian Grand Prix
+2026,10,866,215,13,7.0,8.0,1178,0,0,0.29671214115457556,Arvid Lindblad,RB F1 Team,Belgian Grand Prix
+2026,10,861,214,13,11.0,13.0,1178,0,0,0.052776870217822805,Franco Colapinto,Alpine F1 Team,Belgian Grand Prix
+2026,10,842,214,13,10.0,12.0,1178,0,0,0.07932452737723775,Pierre Gasly,Alpine F1 Team,Belgian Grand Prix
+2026,10,859,215,13,9.0,11.0,1178,0,0,0.11488921021268096,Liam Lawson,RB F1 Team,Belgian Grand Prix
+2026,10,807,217,13,12.0,14.0,1178,0,0,0.03647155352896103,Nico Hülkenberg,Audi,Belgian Grand Prix
+2026,10,860,210,13,14.0,16.0,1178,0,0,0.015497964927261373,Oliver Bearman,Haas F1 Team,Belgian Grand Prix
+2026,10,848,3,13,15.0,17.0,1178,0,0,0.011924467851580882,Alexander Albon,Williams,Belgian Grand Prix
+2026,10,832,3,13,19.0,15.0,1178,0,0,0.01688926721211838,Carlos Sainz,Williams,Belgian Grand Prix
+2026,10,839,210,13,16.0,18.0,1178,0,0,0.006815935188645904,Esteban Ocon,Haas F1 Team,Belgian Grand Prix
+2026,10,822,216,13,17.0,19.0,1178,0,0,0.004512038722677948,Valtteri Bottas,Cadillac,Belgian Grand Prix
+2026,10,4,117,13,22.0,21.0,1178,0,0,0.0028839193825501777,Fernando Alonso,Aston Martin,Belgian Grand Prix
+2026,10,840,117,13,20.0,22.0,1178,0,0,0.001350713037864542,Lance Stroll,Aston Martin,Belgian Grand Prix
+2026,10,815,216,13,18.0,20.0,1178,0,0,0.0029763904886365125,Sergio Pérez,Cadillac,Belgian Grand Prix
+2026,10,847,131,13,3.0,4.0,1178,0,1,0.7110769332882904,George Russell,Mercedes,Belgian Grand Prix
+2026,11,846,1,11,1.0,1.0,1179,1,1,0.8980888835389136,Lando Norris,McLaren,Hungarian Grand Prix
+2026,11,830,9,11,4.0,6.0,1179,1,1,0.5589436609047432,Max Verstappen,Red Bull,Hungarian Grand Prix
+2026,11,863,131,11,7.0,4.0,1179,1,1,0.634580536347377,Andrea Kimi Antonelli,Mercedes,Hungarian Grand Prix
+2026,11,844,6,11,2.0,3.0,1179,0,1,0.8042124576241217,Charles Leclerc,Ferrari,Hungarian Grand Prix
+2026,11,1,6,11,5.0,2.0,1179,0,1,0.8903145106570188,Lewis Hamilton,Ferrari,Hungarian Grand Prix
+2026,11,865,9,11,8.0,8.0,1179,0,0,0.3099104372755316,Isack Hadjar,Red Bull,Hungarian Grand Prix
+2026,11,847,131,11,6.0,7.0,1179,0,0,0.4088087671624047,George Russell,Mercedes,Hungarian Grand Prix
+2026,11,859,215,11,11.0,11.0,1179,0,0,0.09872734674894838,Liam Lawson,RB F1 Team,Hungarian Grand Prix
+2026,11,807,217,11,10.0,10.0,1179,0,0,0.14757832228257897,Nico Hülkenberg,Audi,Hungarian Grand Prix
+2026,11,866,215,11,9.0,9.0,1179,0,0,0.20240108689951847,Arvid Lindblad,RB F1 Team,Hungarian Grand Prix
+2026,11,864,217,11,14.0,14.0,1179,0,0,0.029772695448734905,Gabriel Bortoleto,Audi,Hungarian Grand Prix
+2026,11,842,214,11,12.0,12.0,1179,0,0,0.06778253658764183,Pierre Gasly,Alpine F1 Team,Hungarian Grand Prix
+2026,11,840,117,11,20.0,20.0,1179,0,0,0.002650248465384585,Lance Stroll,Aston Martin,Hungarian Grand Prix
+2026,11,4,117,11,16.0,16.0,1179,0,0,0.02530137299084958,Fernando Alonso,Aston Martin,Hungarian Grand Prix
+2026,11,861,214,11,13.0,13.0,1179,0,0,0.04490923394154173,Franco Colapinto,Alpine F1 Team,Hungarian Grand Prix
+2026,11,839,210,11,15.0,15.0,1179,0,0,0.020157454538404177,Esteban Ocon,Haas F1 Team,Hungarian Grand Prix
+2026,11,848,3,11,19.0,19.0,1179,0,0,0.004355754199594279,Alexander Albon,Williams,Hungarian Grand Prix
+2026,11,832,3,11,18.0,18.0,1179,0,0,0.006705461330151813,Carlos Sainz,Williams,Hungarian Grand Prix
+2026,11,860,210,11,17.0,17.0,1179,0,0,0.008631734164334824,Oliver Bearman,Haas F1 Team,Hungarian Grand Prix
+2026,11,857,1,11,3.0,5.0,1179,0,1,0.6561295495102779,Oscar Piastri,McLaren,Hungarian Grand Prix
+2026,11,815,216,11,22.0,22.0,1179,0,0,0.0010809984063302267,Sergio Pérez,Cadillac,Hungarian Grand Prix
+2026,11,822,216,11,21.0,21.0,1179,0,0,0.0016403410130007535,Valtteri Bottas,Cadillac,Hungarian Grand Prix
