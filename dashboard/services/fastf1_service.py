@@ -4,7 +4,6 @@ import streamlit as st
 import os
 
 
-
 # =====================================
 # FastF1 Cache Configuration
 # =====================================
@@ -38,7 +37,10 @@ fastf1.Cache.enable_cache(
 # Load FastF1 Session
 # =====================================
 
-@st.cache_resource(show_spinner=False)
+@st.cache_resource(
+    ttl=3600,
+    show_spinner=False
+)
 def load_session(
     year,
     event,
@@ -54,8 +56,16 @@ def load_session(
         )
 
 
-        # Correct FastF1 loading
-        session.load()
+        # Optimized loading
+        # Do not load car_data and position_data
+        # because they are extremely large
+
+        session.load(
+            laps=True,
+            telemetry=True,
+            weather=True,
+            messages=True
+        )
 
 
         return session
@@ -65,8 +75,8 @@ def load_session(
     except Exception as e:
 
 
-        st.error(
-            f"FastF1 session loading failed: {e}"
+        st.warning(
+            f"FastF1 session unavailable: {e}"
         )
 
 
@@ -96,33 +106,28 @@ def get_race_results(session):
 
 
 
-        columns = [
+        required = [
 
             "FullName",
-
             "TeamName",
-
             "Position",
-
             "Points"
 
         ]
 
 
+        available = [
 
-        available_columns = [
+            c
 
-            col
+            for c in required
 
-            for col in columns
-
-            if col in results.columns
+            if c in results.columns
 
         ]
 
 
-
-        data = results[available_columns].copy()
+        data = results[available].copy()
 
 
 
@@ -184,7 +189,9 @@ def get_race_results(session):
 
 
         st.warning(
+
             f"Race result error: {e}"
+
         )
 
 
@@ -199,11 +206,8 @@ def get_race_results(session):
 # =====================================
 
 def get_driver_laps(
-
     session,
-
     driver
-
 ):
 
     try:
@@ -224,6 +228,7 @@ def get_driver_laps(
 
 
         if driver_laps.empty:
+
             return None
 
 
@@ -236,7 +241,9 @@ def get_driver_laps(
 
 
         st.warning(
+
             f"Lap extraction failed: {e}"
+
         )
 
 
@@ -251,48 +258,37 @@ def get_driver_laps(
 # =====================================
 
 def get_driver_telemetry(
-
     session,
-
     driver
-
 ):
 
     try:
 
-
-        driver_laps = get_driver_laps(
-
+        laps = get_driver_laps(
             session,
-
             driver
-
         )
 
 
-
-        if driver_laps is None:
-
+        if laps is None:
             return None
 
 
 
-        fastest_lap = driver_laps.pick_fastest()
+        fastest = laps.pick_fastest()
 
 
 
-        if fastest_lap is None:
-
+        if fastest is None:
             return None
 
 
 
-        telemetry = fastest_lap.get_telemetry()
+        telemetry = fastest.get_telemetry()
 
 
 
-        if telemetry is None or telemetry.empty:
-
+        if telemetry.empty:
             return None
 
 
@@ -306,7 +302,7 @@ def get_driver_telemetry(
 
         st.warning(
 
-            f"Telemetry extraction failed: {e}"
+            f"Telemetry error: {e}"
 
         )
 
@@ -322,11 +318,8 @@ def get_driver_telemetry(
 # =====================================
 
 def get_tyre_strategy(
-
     session,
-
     driver
-
 ):
 
     try:
@@ -341,15 +334,12 @@ def get_tyre_strategy(
         )
 
 
-
         if laps is None:
-
             return None
 
 
 
         if "Compound" not in laps.columns:
-
             return None
 
 
@@ -380,7 +370,7 @@ def get_tyre_strategy(
 
 
 
-        strategy.columns = [
+        strategy.columns=[
 
             "Compound",
 
@@ -401,7 +391,7 @@ def get_tyre_strategy(
 
         st.warning(
 
-            f"Tyre strategy failed: {e}"
+            f"Tyre strategy error: {e}"
 
         )
 
@@ -419,6 +409,7 @@ def get_tyre_strategy(
 def get_weather(session):
 
     try:
+
 
         if session is None:
             return None
@@ -446,6 +437,7 @@ def get_race_control_messages(session):
 
     try:
 
+
         if session is None:
             return None
 
@@ -472,12 +464,14 @@ def get_session_info(session):
 
     try:
 
+
         if session is None:
             return None
 
 
 
         return {
+
 
             "Event":
                 session.event.EventName,
